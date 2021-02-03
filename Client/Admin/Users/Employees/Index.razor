@@ -1,0 +1,145 @@
+﻿@page "/admin/users/employees"
+
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>List of Employees</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Users listed on the Website</p>
+        </div>
+    </div>
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>  
+            <AuthorizeView Roles="Admin">
+                <Authorized>
+                    <a href="admin/users/employees/create" class="btn btn-primary">Create Record</a>
+                </Authorized>
+                <NotAuthorized>
+                    <NotEnough />
+                </NotAuthorized>
+            </AuthorizeView>
+        </div>
+    </div>
+</div>
+
+@if (users == null)
+{
+    <LoadingAsset />
+}
+else
+{
+    <GenericList Listado="users">
+        <HayRegistrosCompleto>
+
+            <div class="mr-50 ml-50">
+                <div class="divTable greyGridTable">
+                    <div class="divTableHeading ">
+                        <div class="divTableRow ">
+                            <div class="divTableHead grid10l">Avatar</div>
+                            <div class="divTableHead grid20l--">Full Name</div>
+                            <div class="divTableHead grid20l--">Email</div>
+                            <div class="divTableHead grid20l--">Firma</div>
+                            <div class="divTableHead grid20c--">Job Position</div>
+                            <div class="divTableHead grid20c--">Web Order</div>
+                            <div class="divTableHead grid20c--" style="background-color:black;">Actions</div>
+                        </div>
+                    </div>
+                    <div class="divTableBody ">
+                        @foreach (var item in users)
+                        {
+                        <div class="divTableRow">
+                            <div class="divTableCell grid10l"><img src="@item.UserPoster" class="img64" /></div>
+                            <div class="divTableCell grid20l--">@item.FullName</div>
+                            <div class="divTableCell grid20l--">@item.Email</div>
+                            <div class="divTableCell grid20l--">@firmas.Where(x => x.FirmaId == item.FirmaId).Select(x => x.Name).FirstOrDefault()</div>
+                            <div class="divTableCell grid20l--">@item.JobPosition</div>
+                            <div class="divTableCell grid20l--">@item.OrderPosition</div>
+                            <div class="divTableCell grid20c--">
+
+                                <a href="admin/users/employees/edit/@item.UserId" class="btn btn-success">Edit</a>
+                                <button @onclick="@(() => DeleteGlobal(item.UserId))" class="btn btn-danger">Delete</button>
+
+                            </div>
+                        </div>
+                        }
+                    </div>
+                    <div class="divTableFoot tableFootStyle">
+                    </div>
+                </div>
+            </div>
+        </HayRegistrosCompleto>
+    </GenericList>
+    <br />
+    <br />
+
+    @if (users.Count >= 1)
+    {
+        <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
+    }
+
+}
+
+
+
+@code {
+
+    public List<Users> users { get; set; }
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+    public List<Firmas> firmas = new List<Firmas>();
+
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var ResponseFirmas = await repo.Get<List<Firmas>>("api/firmas");
+        firmas = ResponseFirmas.Response;
+
+        await Load();
+    }
+
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Users>>($"api/users?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            users = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+
+    private async Task DeleteGlobal(int UserId)
+    {
+        var responseHttp = await repo.Delete($"api/users/{UserId}");
+        if (responseHttp.Error)
+        {
+            await mostrar.MostrarMensajeError(await responseHttp.GetBody());
+        }
+        else
+        {
+            await Load();
+        }
+
+    }
+
+
+
+}

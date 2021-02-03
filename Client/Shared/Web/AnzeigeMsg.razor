@@ -1,0 +1,31 @@
+﻿@using Model.Shared.Entities
+@inject IRepository repo
+
+@if (showAnzeigeDiv)
+{
+    <div id="Anzeige">
+        <div class="gid100c">           
+            <img src="@animoBilboard" class="imgResponsive topRadius" />
+        </div>
+        <div class="grid100r ">
+
+            <button @onclick="onCloseAnzeige" type="button" class="btn btn-success mr-8 mt-10 mb-10">Ok Close!</button>
+        </div>
+    </div>
+}
+
+@code {
+
+    bool showAnzeigeDiv = false;
+    [Parameter] public EventCallback onCloseAnzeige { get; set; }
+    [Parameter] public string animoBilboard { get; set; }
+
+
+    public void Mostrar() => showAnzeigeDiv = true;
+    public void Ocultar() => showAnzeigeDiv = false;
+
+
+
+
+
+}

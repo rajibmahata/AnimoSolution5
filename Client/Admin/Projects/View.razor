@@ -1,0 +1,93 @@
+﻿@page "/admin/projects/view/{ProjectId:int}"
+@page "/admin/projects/view/{ProjectId:int}/{Name}"
+@inject IRepository repo
+@inject NavigationManager nm
+@inject IMostrarMensajes mostrar
+
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Project Visualization</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">This is an individual Project visualization</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <a href="admin/projects/addimages/@ProjectId/@Name" class="btn btn-success">Add Images</a>
+            <GoBack></GoBack>
+        </div>
+    </div>
+</div>
+
+@if (model == null)
+{
+    <LoadingAsset />
+}
+else
+{
+    <h6>@model.Project.Name</h6>
+    <p>on: @model.Project.Doc.ToString("dd MMM yyyy")</p>
+    <hr class="hr2" />
+    for (int i = 0; i < model.Tecnos.Count; i++)
+    {
+        @enlanceTecno(model.Tecnos[i])<text><span class="ml-8"></span></text>
+    }
+    <br />
+    <span>Last Update: @model.Project.Dlu.ToString("dd MMM yy")</span>
+    <br />
+    <span>Client: @model.Project.KundeName</span>
+    <br />
+    <img src="@model.Project.Poster" class="imgResponsive"/>
+    <br />
+
+    @*<div>
+        @foreach (var img in model.Images)
+        {
+            <img src="@img.ImageFile" class="imgResponsive" /><br />
+            <span class="p11 colorRed">@img.ImageName</span>
+        }
+
+    </div>*@
+}
+
+
+
+@code {
+    [Parameter] public int ProjectId { get; set; }
+    [Parameter] public string Name { get; set; }
+    private ViewProjectDTO model;
+    private RenderFragment<Tecnos> enlanceTecno = (Tecnos) =>@<a href="admin/projects/search?@Tecnos.TecnoId">@Tecnos.TecnoName</a>;
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var httpResponse = await repo.Get<ViewProjectDTO>($"api/projects/{ProjectId}");
+
+        if (httpResponse.Error)
+        {
+        if (httpResponse.HttpResponseMessage.StatusCode == System.Net.HttpStatusCode.NotFound)
+        {
+        nm.NavigateTo("admin");
+        }
+        else
+        {
+        await mostrar.MostrarMensajeError("Another Error - Check SysAdmin");
+        }
+        }
+        else
+        {
+        model = httpResponse.Response;
+        }
+
+
+    }
+
+
+}

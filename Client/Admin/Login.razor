@@ -1,0 +1,71 @@
+﻿@layout CmsLayout
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthStateProvider
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+@inject NavigationManager nm
+
+@inject AnimoWeb.Client.Services.IAuthService AuthService
+
+@using Model.Shared.Entities
+
+<div class="grid100c">
+    <h3 class="mt-25">Login</h3>
+</div>
+<div class="grid100c mt-25 imgResponsive" style="margin-right: 30%; margin-left: 30%; border: 1px solid #b4b4b4; border-radius: 20px;">
+    <EditForm Model="loginUuser" OnSubmit="HandleLogin">
+        <DataAnnotationsValidator />
+
+        <div class="grid100c mt-50">
+            <label>
+                Username
+            </label>
+            <div class="grid100c">
+                <InputText id="username" @bind-Value="loginUuser.Email" class="form-controlShort" />
+            </div>
+        </div>
+        <div class="mt-50">
+            <label>
+                Password
+            </label>
+            <div class=grid100c>
+                <InputText id="pasword" @bind-Value="loginUuser.Password" type="password" class="form-controlShort" />
+            </div>
+        </div>
+        <br />
+        <br />
+        <button type="submit" class="btn btn-primary">Login</button>
+        <br />
+        <br />
+    </EditForm>
+
+</div>
+<div class="mt-100"></div>
+
+
+
+@code {
+
+    private UserLogin loginUuser = new UserLogin();
+
+
+    private async void HandleLogin()
+    {   
+
+        var result = await AuthService.Login(loginUuser);
+        if (result.Success)
+        {
+            await LocalStorage.SetItemAsync<string>("authToken", result.Data);
+            await AuthStateProvider.GetAuthenticationStateAsync();
+            await mostrar.MostrarMensajeExito(result.Message); 
+
+            nm.NavigateTo("/admin");
+        }
+        else
+        {
+            await mostrar.MostrarMensajeError(result.Message);
+        }
+
+    }
+
+}

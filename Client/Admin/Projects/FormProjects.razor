@@ -1,0 +1,134 @@
+﻿
+<EditForm Model="Project" OnValidSubmit="OnDataAnnotationsValidated">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label>Project Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Project.Name" />
+            <ValidationMessage For="@(() => Project.Name)" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Client Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Project.KundeName" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Creation Date</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@Project.Doc" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Last Update Date</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@Project.Dlu" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Promo Stamp Video [ 1280-720 - 3 sekunden Max ] </label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Project.VideoPreview" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Video Embed Youtube</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@Project.VideoUrl" />
+        </div>
+    </div>
+
+    <hr class="hr1" />
+    <div class="form-group">
+        <InputImg Label="Image" ImagenURL="@imagenURL" SelectedImage="SelectedImage" CssClass="img512" />
+
+    </div>
+    <hr class="hr1" />
+    <div class="form-group">
+        <InputTextArea @bind-Value="Project.Description" style="width: 100%; height: 200px;" />
+    </div>
+    <hr class="hr1" />
+    <div class="form-group">
+        <MultipleSelector NoSeleccionados="NoSeleccionados" Seleccionados="Seleccionados" />
+
+    </div>
+
+    <div class="form-group grid25x ">
+        <label>Is International ? [Outside Austria]</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@Project.isInternational" />
+        </div>
+    </div>
+    <div class="form-group grid25x ">
+        <label>Is Vorarlberger Project ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@Project.isVorarlberg" />
+        </div>
+    </div>
+    <div class="form-group grid25x ">
+        <label>Is Rest of Austria ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@Project.isRestAustria" />
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+
+</EditForm>
+@code {
+
+    [Parameter] public Projects Project { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+    [Parameter] public List<Tecnos> TecnosSeleccionados { get; set; } = new List<Tecnos>();
+    [Parameter] public List<Tecnos> TecnosNoSeleccionados { get; set; } = new List<Tecnos>();
+
+    private List<SelectorMultipleModel> Seleccionados { get; set; } = new List<SelectorMultipleModel>();
+    private List<SelectorMultipleModel> NoSeleccionados { get; set; } = new List<SelectorMultipleModel>();
+    private string imagenURL;
+
+
+    protected override void OnInitialized()
+    {
+        Seleccionados = TecnosSeleccionados.Select(x => new SelectorMultipleModel(x.TecnoId.ToString(), x.TecnoName)).ToList();
+        NoSeleccionados = TecnosNoSeleccionados.Select(x => new SelectorMultipleModel(x.TecnoId.ToString(), x.TecnoName)).ToList();
+
+
+
+        if (!string.IsNullOrEmpty(Project.Poster))
+        {
+
+            imagenURL = Project.Poster;
+            Project.Poster = null;
+        }
+    }
+
+    private void SelectedImage(string imageBase64)
+    {
+        Project.Poster = imageBase64;
+        imagenURL = null;
+
+    }
+
+    private async Task OnDataAnnotationsValidated()
+    {
+        Project.ProjectTecnos = Seleccionados.Select(x => new ProjectTecnos { TecnoId = int.Parse(x.Llave) }).ToList();
+
+        if (!string.IsNullOrEmpty(Project.Poster))
+        {
+            imagenURL = null;
+        }
+
+        await OnValidSubmit.InvokeAsync(null);
+    }
+
+
+
+}

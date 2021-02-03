@@ -1,0 +1,134 @@
+﻿@page "/contact"
+@using System.Net.Mail
+@inject IRepository repo
+@inject HttpClient _http
+@inject IMostrarMensajes mostrar
+@using Model.Shared.Entities
+
+<div class="grid100c mt-50">
+    <h3 class="txtShadow">Lets talk</h3>
+    <br />
+    <span class="p13 colorDarkGrey">
+        Unser hochqualifiziertes Team besteht aus erfahrenen Multimedia-Experten und einer Reihe von qualifizierten Freelancern aus den unterschiedlichsten Bereichen - alles Spezialisten auf ihren jeweiligen Fachgebieten.<br />
+        Dadurch sind wir in der Lage, Kundenprojekte professionell, flexibel und präzise umzusetzen. Unsere langjährige Erfahrung garantiert die Einhaltung von Budget und Terminen.<br />
+        Wir arbeiten mit engagierten und hochmotivierten Profis, die wissen auf was es ankommt!<br />
+        <br />
+
+    </span>
+
+
+    @if (!showThanks)
+    {
+        <div class="grid100l--">
+            <div class="grid66l--" style="text-align: left">
+                <FormContact contactForm="contact" OnValidSubmit="SendEmail" />
+            </div>
+            @if(locations == null)
+            {
+            <span>Loading...</span>
+            }
+            else
+            {
+            <div class="grid33l-- vtop pl-25 stickyNews" style="text-align: left;" >
+                <div class="">
+
+                    @foreach (var item in locations)
+                    {
+                        <div class="mt-50">
+                            <span class="p15 pbold colorRed">@item.LocationReference</span><br />
+                            <span class="p13 pbold colorDarkGrey"><i class="icon-phone pr-5"></i>@item.Phone1</span><br />
+
+                            <span class="p12 colorDarkGrey">@item.StreetFull</span><br />
+                            <span class="p12 colorDarkGrey pbold90">@item.Zip</span> - <span class="p12 pbold colorDarkGrey">@item.Town</span><br /><br />
+                            <span class="p13 colorDarkGrey">@landes.Where(x => x.LandeId == @item.LandeId).Select(x => x.LandeName).FirstOrDefault()</span><br />
+                            
+                            <span class="p13 colorRed">@item.Mail</span><br />
+
+                        </div>
+                        <hr />
+                        <div class="mt-50"></div>
+                    }
+
+
+                </div>
+
+            </div>
+            }
+
+        </div>
+
+    }
+    else
+    {
+        <div class="grid100c tablePadded20 mt-100">
+            <br /><br />
+            <span class="colorGreenNormal p16 pbold"><i class="icon-mobile fa-3x"></i>Thanks ! We will contact you in short</span>
+            <br /><br />
+        </div>
+    }
+    <br />
+</div>
+
+
+
+<div class="mt-250"></div>
+
+
+
+
+@code {
+
+    public ContactFormDTO contact = new ContactFormDTO();
+    bool showThanks { get; set; } = false;
+    public List<GlobalLocations> locations = new List<GlobalLocations>();
+    public List<Landes> landes = new List<Landes>();
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var configLocations = await repo.Get<List<GlobalLocations>>("api/globallocations");
+
+        if (configLocations.HttpResponseMessage.IsSuccessStatusCode)
+        {
+            locations = configLocations.Response;
+        }
+        else
+        {
+            await mostrar.MostrarMensajeError("Another Error - Check SysAdmin");
+        }
+
+        var repoPaises = await repo.Get<List<Landes>>("api/landes");
+        landes = repoPaises.Response;
+
+
+    }
+
+
+
+    private async Task SendEmail()
+    {
+        var result = await _http.PostAsJsonAsync("api/contactform", contact);
+
+
+        //var httpMail = await repo.Post<ContactFormDTO,bool>("api/contactform", contact);
+
+        if (!result.IsSuccessStatusCode)
+        {
+            Console.WriteLine("Error sendig email...");
+            var message = result.ReasonPhrase;
+        }
+        else
+        {
+            showThanks = true;
+            StateHasChanged();
+            await OnInitializedAsync();
+
+        }
+
+
+    }
+
+
+
+}

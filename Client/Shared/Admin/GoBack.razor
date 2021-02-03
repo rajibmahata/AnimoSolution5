@@ -1,0 +1,13 @@
+﻿@inject IJSRuntime js 
+
+<button type="button" @onclick="@goingBack" class="btn btn-outline-primary">Go Back</button>
+
+
+@code {
+
+    private void goingBack() 
+    {
+        Console.WriteLine("Llego al componente");
+        js.InvokeAsync<object>("getBack", -1);
+    }
+}

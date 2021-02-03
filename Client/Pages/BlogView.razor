@@ -1,0 +1,225 @@
+﻿@page "/blogview/{NewsId:int}"
+@page "/blogview/{NewsId:int}/{Title}"
+@inject NavigationManager nm
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+
+<style>
+
+    /* trigger button */
+    .button {
+    }
+
+    /* modal body */
+    .details-modal {
+        border-radius: 6px;
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+        left: 50%;
+        max-width: 100%;
+        pointer-events: none;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-height: 100%;
+    }
+
+        /* modal content */
+        .details-modal .details-modal-content {
+            pointer-events: all;
+            overflow: auto;
+        }
+
+    /* modal overlay */
+    .details-modal-overlay {
+        transition: opacity 0.5s ease-out;
+        pointer-events: none;
+        background: rgba(10, 10, 10, 0.9);
+        position: fixed;
+        opacity: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    details[open] .details-modal-overlay {
+        pointer-events: all;
+        opacity: 0.6;
+    }
+
+    details summary:focus {
+        outline: none;
+    }
+
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+</style>
+
+<div class="grid100r stickyBack mt-50minus">
+    <GoBack />
+</div>
+
+<div class="grid100c">
+    <h3 class="txtShadow ">News  <span class="p13 colorMedGrey tags"> [ @Title.Replace("-"," ")]</span> </h3>
+    <span class="p13 colorDarkGrey">
+    </span>
+    <div class="mt-50"></div>
+
+
+
+    @if (thisNew == null)
+    {
+        <LoadingAsset />
+    }
+    else
+    { <div class="grid100c-- mt-50">
+            <div class="grid75l-- vtop">
+                <div class="tablePadded10" id="news">
+
+                    <div class="grid100l titlesBack1">
+                        <div class="grid50l-- mt-10">
+                            <span class="colorDarkGrey pl-10 p14 pbold">@thisNew.Title</span>
+                        </div>
+
+                        <div class="grid50r-- mt-10">
+                            <span class="p11 colorDarkGrey">Created: @thisNew.Doc.ToString("dd MM yyyy") </span>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="grid75l-- hh-40 mt-10">
+                        <span class="p12 colorDarkGrey">Author: <span class="p14 pbold colorRed">@user.FullName</span></span>
+                    </div>
+                    <div class="grid25r-- hh-40 mt-10">
+                        <span class="p11 colorDarkGrey">Updated at: @thisNew.Dlu.ToString("dd MM yyyy") </span>
+                    </div>
+                    <div class="grid100c">
+                        <img src="@thisNew.PosterImage" alt="" class="imgResponsive imgBorder100" />
+                    </div>
+                    <div class="grid100l mt-25">
+                        <div class="grid75l-- vtop p12 colorDarkGrey">
+                            <MostrarMarkdown ContenidoMarkdown="@thisNew.Body" />
+                        </div>
+                        <div class="grid25c-- vtop" style="border-left: 1px solid #9c9c9c">
+                            <span class="p12 pbold colorDarkGrey">Xtra Images</span><br />
+
+                            @if (newsImagesList != null)
+                            {
+                                @foreach (var el in newsImagesList)
+                                {
+                                    var MyGraph = el.Graph.GraphUrl;
+                                    <div class="details-modal-overlay">
+                                    </div>
+
+                                    <details>
+                                        <summary>
+                                            <div class="button">
+                                                <img src="@MyGraph" class="img128 mt-10">
+                                            </div>
+                                            <div class="details-modal-overlay"></div>
+                                        </summary>
+                                        <div class="details-modal">
+                                            <div class="details-modal-content">
+                                                <img src="@MyGraph" class="imgResponsive imgBorder100">
+                                            </div>
+                                        </div>
+                                    </details>
+                                }
+                            }
+                        </div>
+                    </div>
+
+                    <div class="grid100c--">
+                        <h6>[Tags]</h6>
+                        <hr />
+                        <span class="p12 colorBlue tags">@thisNew.Tags</span>
+                    </div>
+                    <hr />
+                    @if (!string.IsNullOrEmpty(thisNew.VideoUrl))
+                    {
+                        <div class="grid100l-- mt-5">
+                            <span class="p11 colorDarkGrey">External video</span><br />
+                            <span class="p12"><a href="@thisNew.VideoUrl" target="_blank">@thisNew.VideoUrl</a></span>
+                        </div>
+                    }
+                    @if (!string.IsNullOrEmpty(thisNew.LinkUrl))
+                    {
+                        <div class="grid100l-- mt-5">
+                            <span class="p11 colorDarkGrey">External Url Link</span><br />
+                            <span class="p12"><a href="@thisNew.LinkUrl" target="_blank">@thisNew.LinkUrl</a></span>
+                        </div>
+                        
+                    }
+                    <div class="mt-100"></div>
+
+
+
+                </div>
+            </div>
+
+        </div>
+
+        <br />
+        <br />
+
+    }
+
+
+</div>
+
+<div class="mt-150"></div>
+
+
+
+@code {
+
+    [Parameter] public int NewsId { get; set; }
+    [Parameter] public string Title { get; set; }
+
+    private Model.Shared.News thisNew { get; set; }
+    private Users user { get; set; }
+    private NewsGraphs newsGraphs { get; set; }
+    private List<Graphs> Graphicos { get; set; }
+
+    public ViewNewsImagesDTO model = new ViewNewsImagesDTO();
+    public List<NewsGraphs> newsImagesList = new List<NewsGraphs>();
+    public int cantidad = 0;
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        // Obtengo sus Imagenes
+        var httpResponse = await repo.Get<ViewNewsImagesDTO>($"api/newsgraphs/{NewsId}");
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            newsImagesList = httpResponse.Response.NewsGraphs;
+            thisNew = httpResponse.Response.News;
+            if (newsImagesList == null)
+            {
+                cantidad = 0;
+            }
+            else
+            {
+                newsImagesList = httpResponse.Response.NewsGraphs;
+                cantidad = newsImagesList.Count;
+            }
+        }
+
+        var responseGraphicos = await repo.Get<List<Graphs>>("api/graphs");
+        Graphicos = responseGraphicos.Response;
+
+
+        var UserId = thisNew.UserId;
+        var httpAskuser = await repo.Get<Users>($"api/users/{UserId}");
+        user = httpAskuser.Response;
+
+
+    }
+
+
+}

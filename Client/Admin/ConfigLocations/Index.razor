@@ -1,0 +1,128 @@
+﻿@page "/admin/configlocations"
+@using Model.Shared.Entities
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Available list of Locationss</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Locations</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+            <a href="admin/configlocations/create" class="btn btn-primary">Create Record</a>
+        </div>
+    </div>
+</div>
+
+@if (globalLocations == null)
+{
+    <LoadingAsset />
+}
+else
+{
+    <GenericList Listado="globalLocations">
+        <HayRegistrosCompleto>
+
+            <div class="mr-50 ml-50">
+                <div class="divTable greyGridTable">
+                    <div class="divTableHeading ">
+                        <div class="divTableRow ">
+                            <div class="divTableHead grid20l--">Reference</div>
+                            <div class="divTableHead grid20l--">Address</div>
+                            <div class="divTableHead grid20l--">Town</div>
+                            <div class="divTableHead grid20l--">Phone</div>
+                            <div class="divTableHead grid20c--">Actions</div>
+                        </div>
+                    </div>
+                    <div class="divTableBody ">
+                        @foreach (var item in globalLocations)
+                        {
+                        <div class="divTableRow">
+                            <div class="divTableCell grid20l--">@item.LocationReference</div>
+                            <div class="divTableCell grid20l--">@item.StreetFull</div>
+                            <div class="divTableCell grid20l--">@item.Town</div>
+                            <div class="divTableCell grid20l--">@item.Phone1</div>
+                            <div class="divTableCell grid20c--">
+                                <a href="admin/configlocations/edit/@item.Id" class="btn btn-success">Edit</a>
+                                <button @onclick="@(() => DeleteGlobal(item.Id))" class="btn btn-danger">Delete</button>
+                            </div>
+                        </div>
+                        }
+                    </div>
+                    <div class="divTableFoot tableFootStyle">
+                    </div>
+                </div>
+            </div>
+        </HayRegistrosCompleto>
+    </GenericList>
+    <br /><br />
+
+    @if(globalLocations.Count >= 1)
+    {
+        <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
+    }
+    
+}
+
+
+
+
+
+@code {
+
+    public List<GlobalLocations> globalLocations { get; set; }
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await Load();
+    }
+
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<GlobalLocations>>($"api/globallocations?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            globalLocations = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+
+    private async Task DeleteGlobal(int Id)  
+    {
+        var responseHttp = await repo.Delete($"api/globallocations/{Id}");
+        if (responseHttp.Error)
+        {
+            await mostrar.MostrarMensajeError(await responseHttp.GetBody());
+        }
+        else
+        {
+            await Load();
+        }
+
+    }
+
+
+
+}

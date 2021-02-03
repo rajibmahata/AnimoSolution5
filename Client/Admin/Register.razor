@@ -1,0 +1,77 @@
+﻿@layout CmsLayout
+@page "/admin/register"
+
+
+<div>
+    <h3>Register</h3>
+    <hr />
+    <p>Please register at our company</p>
+
+    <EditForm Model="user" OnValidSubmit="HandleRegister">
+        <DataAnnotationsValidator />
+
+        <div class="form-group">
+            <label for="Username">Username</label>
+            <InputText id="Username" @bind-Value="user.Username" class="form-control" />
+            <ValidationMessage For="@(() => user.Username)" />
+        </div>
+
+        <div class="form-group">
+            <label for="Email">Email</label>
+            <InputText id="email" @bind-Value="user.Email" class="form-control" />
+            <ValidationMessage For="@(() => user.Email)" />
+        </div>
+
+        <div class="form-group">
+            <label for="FullName">Full Name</label>
+            <InputText id="FullName" @bind-Value="user.FullName" class="form-control" />
+            <ValidationMessage For="@(() => user.FullName)" />
+        </div>
+
+        <div class="form-group">
+            <label for="Password">Password</label>
+            <InputText id="Password" @bind-Value="user.Password" class="form-control" />
+            <ValidationMessage For="@(() => user.Password)" />
+        </div>
+
+        <div class="form-group">
+            <label for="Dob">Date of Birth</label>
+            <InputDate id="Dob" @bind-Value="user.Dob" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="role">Role Type</label>
+            <InputSelect id="RolId" @bind-Value="user.RoleId" class="form-control">
+                @*@foreach (var rol in roles)
+                    {
+                        <option value="@rol.RolId.ToString()">@rol.RolName</option>
+                    }*@
+
+            </InputSelect>
+        </div>
+
+
+
+    </EditForm>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+@code {
+
+    Model.Shared.VMUserRegister user = new Model.Shared.VMUserRegister();
+
+    void HandleRegister()
+    {
+        Console.WriteLine("Registering...");
+    }
+
+}

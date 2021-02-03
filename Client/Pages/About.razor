@@ -1,0 +1,256 @@
+﻿@page "/about"
+
+@inject IRepository repo
+@using AnimoWeb.Client.Shared.Web
+@using Model.Shared.Entities
+
+<style>
+
+    .trapper {
+        width: 350px;
+        height: 350px;
+        background-color: #fff;
+        margin: 30px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 6px 6px 6px 6px;
+        box-shadow: 0;
+        transform: scale(0.90);
+        transition: box-shadow 0.5s, transform 0.5s;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 2px #b2b2b2;
+    }
+
+        .trapper:hover {
+            transform: scale(1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .trapper .kontainer {
+            width: 100%;
+            height: 100%;
+        }
+
+            .trapper .kontainer .top {
+                height: 80%;
+                width: 100%;
+                -webkit-background-size: 100%;
+                -moz-background-size: 100%;
+                -o-background-size: 100%;
+                background-size: 100%;
+            }
+
+            .trapper .kontainer .bottom {
+                width: 200%;
+                height: 20%;
+                transition: transform 0.5s;
+            }
+
+                .trapper .kontainer .bottom.clicked {
+                    transform: translateX(-50%);
+                }
+
+                .trapper .kontainer .bottom .left {
+                    height: 80%;
+                    width: 50%;
+      
+                    background: radial-gradient(circle, rgb(250, 250, 250) 10%, rgba(225,230,240,1) 100%) !important; /*227 224*/
+                    position: relative;
+                    float: left;
+               
+             
+                    opacity: 0.9;
+                }
+
+        .trapper .inside {
+            z-index: 9;
+         
+            background: radial-gradient(circle, rgb(66, 62, 68) 1%, rgb(78, 76, 82) 100%) !important; /*227 224*/
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            top: -70px;
+            right: -70px;
+            border-radius: 0px 0px 200px 200px;
+            transition: all 0.5s, border-radius 2s, top 1s;
+            overflow: hidden;
+            opacity: 0.8;
+        }
+
+            .trapper .inside .icon {
+                position: absolute;
+                right: 85px;
+                top: 80px;
+                color: white;
+                opacity: 1;
+            }
+
+            .trapper .inside:hover {
+                width: 100%;
+                right: 0;
+                top: 0;
+                border-radius: 0;
+                height: 80%;
+            }
+
+                .trapper .inside:hover .icon {
+                    opacity: 0;
+                    right: 15px;
+                    top: 15px;
+                }
+
+                .trapper .inside:hover .contents {
+                    opacity: 1;
+                    transform: scale(1);
+                    transform: translateY(0);
+                }
+
+            .trapper .inside .contents {
+                padding: 5%;
+                opacity: 0;
+                transform: scale(0.5);
+                transform: translateY(-200%);
+                transition: opacity 0.2s, transform 0.8s;
+            }
+</style>
+
+
+<div class="grid100c mt-100">
+    <h3 class="txtShadow">Unser Team</h3>
+    <br />
+    <span class="p13 colorDarkGrey">
+        Unser hochqualifiziertes Team besteht aus erfahrenen Multimedia-Experten und einer Reihe von qualifizierten Freelancern aus den unterschiedlichsten Bereichen - alles Spezialisten auf ihren jeweiligen Fachgebieten.<br />
+        Dadurch sind wir in der Lage, Kundenprojekte professionell, flexibel und präzise umzusetzen. Unsere langjährige Erfahrung garantiert die Einhaltung von Budget und Terminen.<br />
+        Wir arbeiten mit engagierten und hochmotivierten Profis, die wissen auf was es ankommt!<br />
+        <br />
+        <span class="pbold">Wir bieten Studenten aus Medienfachrichtungen die Möglichkeit, bei uns ein Praktikum zu absolvieren.</span>
+    </span>
+    <br />
+    <br />
+
+    <div id="employees" class="mt-50 grid100c--">
+
+        @if (Employees == null)
+        {
+            <span>No records found...</span>
+        }
+        else
+        {
+
+            @foreach (var item in Employees)
+            {
+                <div class="trapper mt-25 grid25c--">
+                    <div class="kontainer ">
+                        <div class="top">
+                            <img src="@item.UserPoster" class="imgResponsive imageFilterAbout" />
+                        </div>
+                        <div class="bottom">
+                            <div class="left">
+                                <div class="details mt-5">
+                                    <span class="p14 pbold colorDarkGrey">@item.FullName</span><br />
+                                    <span class="p13 colorDarkGrey"><i>@item.JobPosition</i></span>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="inside grid100c">
+                        <div class="icon"><i class="icon-search-plus fa-2x"></i></div>
+                        <div class="contents" style="text-align: left;">
+                            <div class="icon-arrow-circle-o-right colorWhite fa-2x"><br />
+                            <span class="pl-5 colorWhite p10 vtop">@item.Email</span></div><br />
+                            <div class="icon-phone colorWhite fa-2x"><br />
+                            <span class="pl-5 colorWhite p10 vtop"> @item.Phone</span></div>                        
+                        </div>
+                    </div>
+                </div>
+            }
+
+        }
+    </div>
+
+    <div class="mt-100">
+        <h3>Bewerbungen</h3>
+        <br />
+        <span>
+            Wir sind immer an talentierten 3D-Artists mit einer Passion für Details interessiert. <br />
+            Bewerbungen mit Arbeitsproben (!), einem kurzen Lebenslauf mit Foto senden Sie bitte an unser Büro in Mäder oder an die unten angeführte E-Mail-Adresse.
+        </span>
+        <br /><br />
+        <h6 class="colorRed">jobs@animations-and-more.com</h6>
+    </div>
+
+
+
+    @if (Employees != null)
+    {
+        <h4 class="mt-100"></h4>
+        <div class="gridderRow grid100c-- ">
+
+            <div class="grid100c--">
+                <h4 class="colorDarkGrey txtShadow">Buro Wien</h4>
+                <br />
+                <img src="/images/identity/AnimoWien.jpg" alt="Animations and More in Wien" class="imgResponsive imageFilter imgBorder100" />
+            </div>
+            <div class="grid100c-- mt-50">
+                <h4 class="colorDarkGrey txtShadow">Buro Vorarlberg</h4>
+                <br />
+                <img src="/images/identity/AnimoMader.jpg" alt="Animations and More in Vorarlberg" class="imgResponsive imageFilter imgBorder100" />
+
+            </div>
+
+        </div>
+
+    }
+
+    <br />
+
+</div>
+
+<div class="mt-150"></div>
+
+
+
+@code {
+
+    public List<Users> Employees { get; set; }
+
+
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        await Load();
+    }
+
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Users>>($"api/users?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            Employees = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+
+
+
+
+
+
+
+}

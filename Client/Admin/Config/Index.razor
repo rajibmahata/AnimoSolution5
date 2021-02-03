@@ -1,0 +1,166 @@
+﻿@page "/admin/config"
+@using Model.Shared
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+@inject NavigationManager nm
+
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>General configuration</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Edit your record here</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+            <a href="admin/configlocations" class="btn btn-primary">Manage Locations</a>
+            <a href="admin/social" class="btn btn-primary">Manage Social Icons</a>
+        </div>
+    </div>
+</div>
+
+
+@if (globalConfig == null)
+{
+    <LoadingAsset />
+}
+else
+{
+
+<EditForm Model="globalConfig" OnSubmit="handleEdit">
+
+    <div class="form-group">
+        <label>Firma Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.FirmaName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Legal Firma Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.FirmaLegalName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Land</label>
+        <div>
+            <InputSelect id="LandeId" @bind-Value="globalConfig.LandeId" class="form-control">
+                @foreach (var pais in paises)
+                    {
+                    <option value="@pais.LandeId.ToString()">@pais.LandeName</option>
+                    }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group grid75x">
+        <label>Web site URL</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.FirmaWeb" />
+        </div>
+    </div>
+    <div class="form-group grid50x ">
+        <label>Host Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.FirmaHost" />
+        </div>
+    </div>
+    <div class="form-group grid50x ">
+        <label>Mail from Contacts to</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.MailDestination" />
+        </div>
+    </div>
+    <div class="form-group grid50x ">
+        <label>SMTP Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.FirmaSmtp" />
+        </div>
+    </div>
+
+    <div class="form-group grid50x ">
+        <label>SMTP User Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.FirmaSmtpUser" />
+        </div>
+    </div>
+
+    <div class="form-group grid50x ">
+        <label>SMTP Password</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@globalConfig.FirmaSmtpPass" />
+        </div>
+    </div>
+    <br />
+    <div class="form-group grid25x ">
+        <label>SMTP Port</label>
+        <div>
+            <InputNumber class="form-control" @bind-Value="@globalConfig.FirmaSmtpPort" />
+        </div>
+    </div>
+
+    <div class="form-group grid25x ">
+        <label>Is Website Active ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@globalConfig.isPublished" />
+        </div>
+    </div>
+    <br />
+    <br />
+    <div class="grid100l--">
+        <button type="submit" class="btn btn-primary">Save Configuration</button>
+    </div>
+</EditForm>
+
+}
+
+
+
+
+
+@code {
+
+    public GlobalConfig globalConfig { get; set; }
+    public List<Landes> paises { get; set; }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await CargarPaises();
+
+        var httpResponse = await repo.Get<GlobalConfig>("api/globalconfig");
+
+        globalConfig = httpResponse.Response;
+    }
+
+    private async Task CargarPaises()
+    {
+        var httpResponse = await repo.Get<List<Landes>>("api/landes");
+        paises = httpResponse.Response;
+
+    }
+
+    private async Task handleEdit()
+    {
+        var httpResponse = await repo.Put("api/globalconfig", globalConfig);
+
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            nm.NavigateTo("/admin");
+        }
+    }
+
+
+
+
+}

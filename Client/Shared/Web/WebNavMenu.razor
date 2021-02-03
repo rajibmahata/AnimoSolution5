@@ -1,0 +1,89 @@
+﻿@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-darkWeb border-bottom box-shadow mb-3 fixed-top">
+    <div class="container wrapper">
+        <a class="navbar-brand text-light" asp-area="" asp-page="/Index">
+            @if (logos == null)
+            {
+                <img src="~/images/identity/isologo3.png" />
+            }
+            else
+            {
+                <img src="@logos.Where(x => x.isDefaultActive == true).Select(x => x.LogoFile).FirstOrDefault()" />
+            }
+        </a>
+        <button class="navbar-toggler" @onclick="ToggleNavMenu" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="@NavMenuCssClass navbar-collapse d-sm-inline-flex flex-sm-row-reverse" @onclick="CollapseNavMenu">
+            <ul class="navbar-nav flex-grow-1">
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="" Match="NavLinkMatch.All">Home</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="about">About us</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="projects">Projects</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="contact">Conctact</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="blog">News</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+@code {
+
+    public List<Logos> logos = new List<Logos>(); 
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    bool collapseNavMenu = true;
+    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    void CollapseNavMenu()
+    {
+        collapseNavMenu = true;
+    }
+
+    protected async override Task OnInitializedAsync()
+    {
+        await Load();
+    }
+
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Logos>>($"api/logos?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            logos = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+
+
+}

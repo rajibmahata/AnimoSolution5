@@ -1,0 +1,1644 @@
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.boot.json
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\libman.json
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\AnimoWeb.Client.StaticWebAssets.xml
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\AnimoWeb.Client.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\ref\AnimoWeb.Client.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\AnimoWeb.Client.pdb
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\AnimoWeb.Client.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\AnimoWeb.Client.pdb
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.webassembly.js
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.SessionStorage.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.Toast.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Markdig.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.AppContext.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Buffers.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Configuration.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Console.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Core.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.Common.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Memory.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Mail.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Ping.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Requests.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Security.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ObjectModel.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Uri.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Claims.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Json.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ValueTuple.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Windows.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\WindowsBase.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\mscorlib.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\netstandard.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.timezones.blat.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.wasm.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt.dat.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_CJK.dat.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.2.js.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Model.Shared.dll.gz
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.SessionStorage.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.Toast.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Markdig.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.AppContext.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Buffers.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Concurrent.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Immutable.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Specialized.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Configuration.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Console.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Core.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.Common.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Process.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Formats.Asn1.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Calendars.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Extensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Expressions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Parallel.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Queryable.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Memory.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.Json.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.HttpListener.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Mail.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NameResolution.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Ping.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Requests.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Security.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.ServicePoint.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Sockets.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebClient.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebProxy.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.Vectors.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ObjectModel.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Uri.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Extensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Metadata.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Reader.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Writer.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Extensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Handles.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Loader.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Numerics.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.AccessControl.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Claims.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.SecureString.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceModel.Web.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceProcess.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Json.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Channels.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Overlapped.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Thread.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Timer.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.Local.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.ValueTuple.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.HttpUtility.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Windows.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Linq.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Serialization.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XDocument.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\WindowsBase.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\mscorlib.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\netstandard.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.CoreLib.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.timezones.blat
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.wasm
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt.dat
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_CJK.dat
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.2.js
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Model.Shared.dll
+D:\Projects\AnimoSolution\Client\bin\Debug\net5.0\wwwroot\_framework\Model.Shared.pdb
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.csprojAssemblyReference.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.AssemblyInfoInputs.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.AssemblyInfo.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.csproj.CoreCompileInputs.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.MvcApplicationPartsAssemblyInfo.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorComponent.input.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\BilboardForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\LocationForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Config\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Config\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\View.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\FirmasForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Login.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\LogosForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\AddImages.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\NewsForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\AddImages.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\FormProjects.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\View.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Register.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\SocialForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\TecnoForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\View.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\EditEmployeesForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\EmployeesForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Admin\_imports.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\About.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Contact.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Downloads.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\FormContact.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Impressum.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\_imports.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\Admin_Footer.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\Confirmation.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\CustomNotFound.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\EnlacesLogin.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\GenericList.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\GoBack.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\InputImg.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\InputPassword.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\LoadingAsset.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\LogoutButton.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\MostrarMarkdown.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\MultipleSelector.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\NotEnough.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\Paginacion.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\ProjectList.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\ProjectSingle.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\AnzeigeMsg.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\CookieMsg.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\AdminNavMenu.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\CmsLayout.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\WebNavMenu.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorComponent.output.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\AnimoWeb.Client.dll
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.TagHelpers.input.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.TagHelpers.output.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorCoreGenerate.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\BilboardForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\LocationForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Config\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Config\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Downloads\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Downloads\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Downloads\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Downloads\View.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Firma\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Firma\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Firma\FirmasForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Firma\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Login.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Logos\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Logos\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Logos\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Logos\LogosForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\News\AddImages.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\News\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\News\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\News\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\News\NewsForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Projects\AddImages.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Projects\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Projects\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Projects\FormProjects.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Projects\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Projects\View.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Register.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Social\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Social\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Social\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Social\SocialForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\TecnoForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\View.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\Create.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\Edit.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\EditEmployeesForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\EmployeesForm.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Admin\_imports.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\About.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\Contact.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\Downloads.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\FormContact.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\Impressum.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\_imports.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\Admin_Footer.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\Confirmation.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\CustomNotFound.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\EnlacesLogin.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\GenericList.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\GoBack.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\InputImg.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\InputPassword.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\LoadingAsset.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\LogoutButton.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\MostrarMarkdown.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\MultipleSelector.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\NotEnough.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\Paginacion.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\ProjectList.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\ProjectSingle.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Web\AnzeigeMsg.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Web\CookieMsg.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Admin\AdminNavMenu.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\CmsLayout.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Web\WebNavMenu.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\NTOwp0wR.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\yzDB3aPO.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\staticwebassets\AnimoWeb.Client.StaticWebAssets.Manifest.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\staticwebassets\AnimoWeb.Client.StaticWebAssets.xml
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\scopedcss\Shared\Admin\AdminNavMenu.razor.rz.scp.css
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\scopedcss\Shared\CmsLayout.razor.rz.scp.css
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\scopedcss\Shared\Web\WebNavMenu.razor.rz.scp.css
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\scopedcss\bundle\AnimoWeb.Client.styles.css
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\scopedcss\projectbundle\AnimoWeb.Client.bundle.scp.css
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorTargetAssemblyInfo.cache
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.csproj.CopyComplete
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.dll
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\ref\AnimoWeb.Client.dll
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\AnimoWeb.Client.pdb
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\WebFooter.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Web\WebFooter.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Blog.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\Blog.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\BlogView.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\BlogView.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\News.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\Web_Footer.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\News.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Shared\Web\Web_Footer.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ProjectView.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\ProjectView.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Project.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\Razor\Pages\Project.razor.g.cs
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\hKRimi4P.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cb2i6Y7h.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\v0vKE4S4.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\MZB+2Vo4.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\i4qKdtjc.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\zvjHTZto.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\CtnjmKzv.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Iv2U8kBo.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\aH6VljMH.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\JrFtOLPK.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\XcAuDeu8.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\m0oZ+5n4.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\lxYLljQr.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cmv+PghC.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\SRoPccAm.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\2mjMLgsx.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\4dWVQ7he.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\OYyHXZsC.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\lTVHrb9f.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\wZAgw4Cu.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\GFMQyJ16.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cmGt3Rs3.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\lbjo0MjB.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\JjKA3pI5.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\DzWgRwyC.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\DhljBRoE.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\YmBlgWYI.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\gTwJeHxs.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\B99cctSC.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\VqEY7E3c.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\XYKvbD86.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\gS8gPqvR.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\YDTvg4Te.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\gv2m2TZF.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\AiavIFUT.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\b8t8QAFh.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\QN3kE6NN.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\qeopINll.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\3PYZhX18.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\fFTjlILf.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\RQqhmNzV.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cEPzFhjy.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\k5ufiqW0.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Ex1eI4KJ.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Wpr+9GNo.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\M6hmK08p.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\mW+QBZ96.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\uR0qAW7z.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\2KidY3GZ.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Zv+zHuLf.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\XA9TbtHq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\JdzVV+h8.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\j+VsuzBZ.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Y+Bq15r1.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\XN9I5+R2.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\pCPhT0+y.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Efn8gRG4.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\IaZUfdfO.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\0N0RTUyp.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\0HdN+Pp8.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\8AH3WOHZ.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\LOmLUNFF.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\oj+TZgAy.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\+mbswKVT.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\dwkmdIol.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\qHPBzD3p.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\HEFAUhzV.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Sn7Oux3U.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\F6Qil64c.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\p5E+rWtE.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\coKZEDTn.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\H+nkjWE4.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\5XGL86zy.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\qFKKkbOW.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\a9ofuPJs.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\vqURr6v+.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\lKWLwal3.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\awKAnuua.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\ZrYyYIXj.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\x6I1bdgV.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\ZjJQ6PW3.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\kRJ1APP2.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\VsWZuywU.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\LxdwS8eq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\TloMNvuI.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\HRTNG+YE.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\YjiZ7vw0.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cIAHnNQT.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\N3v81xzs.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\wPKWsl45.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\icj3MD0O.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\3HwsWdb5.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\eoaxE9ey.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\AMWOq1Dy.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\64NHnbNp.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\5Y+84NqN.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\pxhiKI+w.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\ehtxAzZq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\5aDXZo2x.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\4oFURzG2.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\7eIh9+dj.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\clwjz+QX.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\jYMQ9gSV.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\jxfe3az1.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\z51T+MHF.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\GuaEBAqd.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\H0jceBuZ.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\eLpTiwV5.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\JmVRlbNY.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\j53wlmf5.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\owQ0dCH4.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Yp7Hq3D2.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\m+rCGbqj.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\ls8BNHsO.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\HQ+zeGgT.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\MFokDSvX.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\tY3Qqud1.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\frXXHj9Q.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\pdSUjB1u.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\F6rEZBOb.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\NLiAwzkq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\S8eE5Beo.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\8rtgUizp.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\7J2eF+C5.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\xpJ19CSl.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\OegDF77Q.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\tfjvg8Kn.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\5ulfOuRo.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cYbhEVJb.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cYbWDuVN.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\eoUogUNM.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\u1CEbZpX.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\KRKFp8h2.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\lzsO5L3h.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\hYWVU7wU.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\mTZkXyf4.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\2izS4of8.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\hKmejAHl.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\4GVoZ+Zz.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\+NC8UP0T.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\myTnz7lh.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\nIophX5o.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\CTJnF5sE.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\MlpDT51+.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\7gGZpAVq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\lj7mTjLz.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Fvtfelgd.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\VQIjhYzP.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\XiYn4jYH.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\LgXDNbN2.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\kphJMP5z.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\bq4xUqJl.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\LPQ+rRDq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\5Jc6SnbQ.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\JYCRYeKe.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\IwDHUlZU.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\f99p0Yoq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\LBxjvmvL.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\itrZMuOe.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\+Veoyvap.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\7Z8Ypo0i.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Vio5qT3z.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\2zQDm+5c.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\La5lOl7p.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\mVQlwwv5.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\XsKsNBIY.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\Q4k+nqbu.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\vfY+XyxM.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\a3DmtPwF.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\6wfywt+M.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\OThp+r73.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\rfpdjtrM.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\CaJvMRZL.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\690LcLcG.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\yk2hP1tT.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\tg4F7n0G.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\HoeQ2a9i.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\oRammcxU.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\rQP8Ca1J.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\i+j72wk8.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\zWKgEcD7.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\ALimpQah.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\QcfVFkCG.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\g5oneoaC.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\d1sw9hXp.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\jFeeBYLb.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\r0+qcPfu.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\m6bOyoSc.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\ABU1Db8u.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\3pazsZ7H.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\wxI7mmmj.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\cDZt7OTQ.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\URsNLSIk.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\saV3rL8t.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\VTHELpqq.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\3hBUYBtp.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\h+0KlJoD.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\9m+NKgaW.gz
+D:\Projects\AnimoSolution\Client\obj\Debug\net5.0\build-gz\NRkaFY+v.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.boot.json
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\libman.json
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\AnimoWeb.Client.StaticWebAssets.xml
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\AnimoWeb.Client.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\ref\AnimoWeb.Client.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\AnimoWeb.Client.pdb
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\AnimoWeb.Client.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\AnimoWeb.Client.pdb
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\blazor.webassembly.js
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.SessionStorage.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.Toast.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Markdig.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Registry.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.AppContext.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Buffers.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Concurrent.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Immutable.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.NonGeneric.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Specialized.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Configuration.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Console.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Core.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.Common.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Debug.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Process.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tools.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tracing.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Dynamic.Runtime.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Formats.Asn1.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Calendars.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Extensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.Brotli.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.IsolatedStorage.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Expressions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Parallel.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Queryable.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Memory.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.Json.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.HttpListener.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Mail.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NameResolution.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NetworkInformation.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Ping.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Requests.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Security.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.ServicePoint.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Sockets.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebClient.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebProxy.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.Vectors.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ObjectModel.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Uri.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Extensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Metadata.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Reader.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.ResourceManager.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Writer.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Extensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Handles.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Loader.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.AccessControl.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Claims.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.Windows.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.SecureString.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceProcess.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encodings.Web.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Json.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Channels.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Overlapped.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Thread.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.ThreadPool.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Timer.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.Local.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ValueTuple.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Windows.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Linq.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.ReaderWriter.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Serialization.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XDocument.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlSerializer.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\WindowsBase.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\mscorlib.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\netstandard.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.CoreLib.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.timezones.blat.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.wasm.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt.dat.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_CJK.dat.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.1.js.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Model.Shared.dll.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.LocalStorage.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.SessionStorage.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Blazored.Toast.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Markdig.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Components.WebAssembly.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Abstractions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Binder.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.FileExtensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Configuration.Json.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.FileSystemGlobbing.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Logging.Abstractions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Options.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Extensions.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipelines.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.CSharp.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.Core.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.VisualBasic.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.AppContext.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Buffers.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Concurrent.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Immutable.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.NonGeneric.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.Specialized.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Collections.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Annotations.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.TypeConverter.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ComponentModel.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Configuration.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Console.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Core.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.Common.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.DataSetExtensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Data.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Contracts.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Debug.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.DiagnosticSource.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.FileVersionInfo.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Process.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.StackTrace.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TextWriterTraceListener.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tools.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.TraceSource.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Diagnostics.Tracing.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Drawing.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Dynamic.Runtime.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Formats.Asn1.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Calendars.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.Extensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Globalization.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.Brotli.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.FileSystem.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Compression.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.AccessControl.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.DriveInfo.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.Watcher.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.FileSystem.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.IsolatedStorage.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.MemoryMappedFiles.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.AccessControl.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.Pipes.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.IO.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Expressions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Parallel.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.Queryable.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Linq.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Memory.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.Json.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Http.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.HttpListener.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Mail.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NameResolution.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.NetworkInformation.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Ping.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Requests.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Security.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.ServicePoint.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.Sockets.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebClient.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebHeaderCollection.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebProxy.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.Client.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.WebSockets.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Net.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.Vectors.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Numerics.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ObjectModel.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.DataContractSerialization.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Uri.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.Linq.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.Xml.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.DispatchProxy.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.ILGeneration.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Emit.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Extensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Metadata.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.TypeExtensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Reflection.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Reader.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.ResourceManager.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Resources.Writer.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.CompilerServices.VisualC.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Extensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Handles.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.RuntimeInformation.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.InteropServices.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Intrinsics.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Loader.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Numerics.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.Xml.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.Serialization.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Runtime.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.AccessControl.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Claims.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Cng.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Csp.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Encoding.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.OpenSsl.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.Primitives.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.Windows.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.Principal.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.SecureString.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Security.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceModel.Web.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ServiceProcess.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.CodePages.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.Extensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encoding.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Encodings.Web.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.Json.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Text.RegularExpressions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Channels.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Overlapped.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Dataflow.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Extensions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.Parallel.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Tasks.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Thread.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.ThreadPool.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.Timer.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Threading.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.Local.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Transactions.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.ValueTuple.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.HttpUtility.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Web.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Windows.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Linq.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.ReaderWriter.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.Serialization.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XDocument.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XPath.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlDocument.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.XmlSerializer.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Xml.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\WindowsBase.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\mscorlib.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\netstandard.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\System.Private.CoreLib.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.timezones.blat
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.wasm
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt.dat
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_CJK.dat
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_EFIGS.dat
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\icudt_no_CJK.dat
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\dotnet.5.0.1.js
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Model.Shared.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\_framework\Model.Shared.pdb
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.csprojAssemblyReference.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.GeneratedMSBuildEditorConfig.editorconfig
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.AssemblyInfoInputs.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.AssemblyInfo.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.csproj.CoreCompileInputs.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.MvcApplicationPartsAssemblyInfo.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorComponent.input.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\BilboardForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Bilboards\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\ConfigLocations\LocationForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Config\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Config\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Downloads\View.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\FirmasForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Firma\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Login.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Logos\LogosForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\AddImages.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\News\NewsForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\AddImages.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\FormProjects.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Projects\View.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Register.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Social\SocialForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Tecnos\TecnoForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Clients\View.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\EditEmployeesForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\EmployeesForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\Users\Employees\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Admin\_imports.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\About.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Blog.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\BlogView.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Contact.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Downloads.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\FormContact.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Impressum.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\News.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Project.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\ProjectView.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Pages\_imports.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\Admin_Footer.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\Confirmation.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\CustomNotFound.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\EnlacesLogin.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\GenericList.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\GoBack.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\InputImg.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\InputPassword.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\LoadingAsset.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\LogoutButton.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\MostrarMarkdown.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\MultipleSelector.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\NotEnough.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\Paginacion.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\ProjectList.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\ProjectSingle.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\AnzeigeMsg.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\CookieMsg.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\WebFooter.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\Web_Footer.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\_Imports.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Admin\AdminNavMenu.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\CmsLayout.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\MainLayout.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Web\WebNavMenu.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorComponent.output.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\RazorDeclaration\AnimoWeb.Client.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.TagHelpers.input.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.TagHelpers.output.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorCoreGenerate.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\BilboardForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Bilboards\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\ConfigLocations\LocationForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Config\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Config\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Downloads\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Downloads\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Downloads\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Downloads\View.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Firma\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Firma\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Firma\FirmasForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Firma\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Login.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Logos\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Logos\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Logos\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Logos\LogosForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\News\AddImages.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\News\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\News\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\News\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\News\NewsForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Projects\AddImages.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Projects\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Projects\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Projects\FormProjects.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Projects\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Projects\View.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Register.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Social\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Social\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Social\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Social\SocialForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Tecnos\TecnoForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Clients\View.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\Create.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\Edit.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\EditEmployeesForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\EmployeesForm.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\Users\Employees\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Admin\_imports.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\About.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\Blog.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\BlogView.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\Contact.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\Downloads.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\FormContact.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\Impressum.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\News.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\Project.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\ProjectView.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Pages\_imports.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\Admin_Footer.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\Confirmation.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\CustomNotFound.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\EnlacesLogin.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\GenericList.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\GoBack.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\InputImg.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\InputPassword.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\LoadingAsset.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\LogoutButton.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\MostrarMarkdown.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\MultipleSelector.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\NotEnough.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\Paginacion.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\ProjectList.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\ProjectSingle.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Web\AnzeigeMsg.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Web\CookieMsg.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Web\WebFooter.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Web\Web_Footer.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\_Imports.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Admin\AdminNavMenu.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\CmsLayout.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\MainLayout.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\Razor\Shared\Web\WebNavMenu.razor.g.cs
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\vuu5kEzr.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\5A8SP1wq.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\RnXGr61O.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\YPwsOWP8.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\+flFoojB.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\lfx4hGYv.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\4bjpue3Y.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\+SZ02Y5m.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Pd1+5RkM.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\VN7xrwQW.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\lYbRIu8+.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\NEb+ShPH.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\xLsEvp5K.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\4h5pagtI.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\RNTsNWMa.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\wkvtQWip.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\zTV4KxWr.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\F9Ih8RGy.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\xZKI2pPu.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\cA4MpnkG.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\nWzIEWpi.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\lNkrgR4W.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\btdoJwcW.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\jqU9Jv++.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\9xHOcPSb.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\8SnzpPTw.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\sBLjWu1w.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\IHKYDMdB.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\2PtRJdKh.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\+3UoEqsy.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Z77DxSkY.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\2LNM9nz+.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\CyblJT5u.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\5fh32b0N.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\ipUFT8Hs.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\4r5O2RGE.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\pbyB2ioo.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\NLLLEouY.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\P4K4DAfN.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\TXpSINf4.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\4XSst0QB.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\auEzKAYb.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\KpS6NLxB.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\W9mtIcpI.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\0WvwyYnj.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\U2489QHj.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\QOen1ZbS.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\NAE8lmUn.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\8zzkUhj3.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\f+B7PMHF.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\7ozq8TMq.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\ZDExFxRs.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\hT2Lculo.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\xTovTiVu.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\zrdiAdMJ.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\hDQQ+nKU.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\JykiLcu2.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\bQ0gCcNt.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\q1UP7VwJ.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Rq0FHM05.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\I5RBfYuH.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\rAA28cZw.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\suHmeW5F.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\2HA0yKQT.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\9R06yl1K.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\UfCmaoGS.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\fD+4L4Iy.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\1U5a3+V5.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\XLCMwLOa.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\FhxS6t5i.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\HCNSO7lH.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\meO+gtr6.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\zLA7JVt8.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\fD8wbQvb.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\gJ1JWzGX.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\CtDkU5ND.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\QnMPUFTQ.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\sx6+z3ub.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\PrEsbn+y.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\kKNBFZ87.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\P5810IXi.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\J1ikB5fk.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\3BWiGV1d.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\QDN+5u6l.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\qiq0SrGe.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\iNcZkwmu.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\oP6Wt3Yl.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\U+DjDwqm.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Yim58SMl.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\8YtTtEis.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\jcqYTV6y.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\M7l88s+B.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\j4jMJlAE.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\lYwGyVS2.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\ZmSPV2YZ.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\oYw+meeg.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\99O0j4C0.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\CtsG4z1U.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\OBvQ8GVT.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\++5NsDrc.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\mOcbTZu7.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\1gdVfasU.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Cx6FJ7rC.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\c7sAGp2Y.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\bO8AJVO+.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\xhreYOYm.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\jYV4dztc.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\b0FVHpUS.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\uJxFrAru.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\mRKM1hzm.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\9wRfnCrN.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\wh2Zoqor.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\nFYZTSgV.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\lDAxKf6o.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\XrNMbYzj.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\QO2TpmAj.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\XY+BTOy+.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\ynQrNuky.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\JBRf3h2u.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\WZbeLr2h.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\2xw+zqKP.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\B2JbHUof.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\WML03J7j.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\SsB0tdna.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\WFFErCwB.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\zxkaGtz9.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\7fI6sGBQ.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\qCIzsXd0.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\7joBcAwF.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Mksj2XE+.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\576ye0cP.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\ePNSc9br.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Jr5yGRSC.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\nFmnDZ8E.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\v+jQPusX.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\0XDZ1R2b.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\kXky4ofB.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\YAVGZMNT.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\GmrhETyI.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\KfNmrrSW.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\NPIEnMsE.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\eoKg4bgK.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\3GK8sphC.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\WwkDFBzN.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\FThTH0dH.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\fFYf2U1D.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\acdvrbGb.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\m8Y4YeY4.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\K+mV8I1V.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\11pNxa5W.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\6GPMH7nr.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\mU5612nS.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\h56qEfpl.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\sVadGS4q.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\bJc5MFNc.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\+1dLLzsh.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\71ZpneL8.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\3CcvcD+6.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\J4lw7gD+.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\TORHMvfq.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\VpLrOgZ5.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\+i0zw43W.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\J8xnsDKx.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\MQXz4Yf+.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\3PYSo94E.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\JyxAhw9e.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\7lIw+pqd.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\TqkzKP7Y.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\ODGkqRYP.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\1x8IWBq0.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\Q00Uf5GT.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\bdS0IfKr.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\aHeESPXi.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\utTxWHgE.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\NdfI9f6D.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\C3B7vc8O.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\dCO+JfqX.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\pVwY02Ke.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\k7oqGUX6.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\hn5r3KPh.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\OWNDlWV2.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\+Bav36bN.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\HUvhNmZp.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\fubjZmtX.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\pTSZms4Q.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\muni8SMV.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\gB+bzK2m.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\88HDOetF.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\qAgMKxL7.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\KvFCwae3.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\EJblmiVj.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\NfXM26Wt.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\GsbiEjsN.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\KiRigUoh.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\e995loVZ.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\ZMPf+adw.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\+apl18o8.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\09wyI03s.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\PKHJcQyG.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\gfPaxIUC.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\build-gz\mENgOOUR.gz
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\staticwebassets\AnimoWeb.Client.StaticWebAssets.Manifest.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\staticwebassets\AnimoWeb.Client.StaticWebAssets.xml
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\scopedcss\Shared\Admin\AdminNavMenu.razor.rz.scp.css
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\scopedcss\Shared\CmsLayout.razor.rz.scp.css
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\scopedcss\Shared\Web\WebNavMenu.razor.rz.scp.css
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\scopedcss\bundle\AnimoWeb.Client.styles.css
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\scopedcss\projectbundle\AnimoWeb.Client.bundle.scp.css
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.RazorTargetAssemblyInfo.cache
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.csproj.CopyComplete
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\ref\AnimoWeb.Client.dll
+H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\AnimoWeb.Client.pdb

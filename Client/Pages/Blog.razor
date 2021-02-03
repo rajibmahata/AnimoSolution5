@@ -1,0 +1,167 @@
+﻿@page "/blog"
+@inject NavigationManager nm
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+
+<div class="grid100c">
+    <h3 class="txtShadow ">News  <span class="p13 colorMedGrey tags"> [ The Blog ]</span> </h3>
+    <span class="p13 colorDarkGrey">
+        Text lorem ipsum for news...<br />
+        Probably something like welcome to our news, keep informed, trends, etc.
+    </span>
+    <div class="mt-50"></div>
+
+    @if (news == null)
+        {
+            <LoadingAsset />
+        }
+        else
+        {   <div class="grid100c--">
+                <div class="grid75l-- vtop">
+                    <div class="tablePadded10" id="news">
+                        <GenericList Listado="news">
+                            <HayRegistrosCompleto>
+
+                                @foreach (var item in news)
+                                {
+                                    <div class="grid100l titlesBack1">
+                                        <div class="grid50l-- mt-10">
+                                            <a href="/blogview/@item.NewsId/@item.Title.Replace(" ","-")"><span class="colorDarkGrey pl-10 p14 pbold">@item.Title</span></a> 
+                                        </div>
+
+                                        <div class="grid50r-- mt-10">
+                                            <span class="p11 colorDarkGrey">Created: @item.Doc.ToString("dd MM yyyy") </span>
+                                        </div>
+                                    </div>
+                                    <hr />
+                                    <div class="grid75l-- hh-40 mt-10">
+                                        <span class="p12 colorDarkGrey">Author: <span class="p14 pbold colorRed">@users.Where(x => x.UserId == item.UserId).Select(x => x.FullName).FirstOrDefault()</span></span>
+                                    </div>
+                                    <div class="grid25r-- hh-40 mt-10">
+                                        <span class="p11 colorDarkGrey">Updated at: @item.Dlu.ToString("dd MM yyyy") </span>
+                                    </div>
+
+                                    <div class="grid50c--">
+                                        <a href="/blogview/@item.NewsId/@item.Title.Replace(" ","-")"><img src="@item.PosterImage" alt="" class="imgResponsive imgBorder100 " /></a>
+                                    </div>
+                                    <div class="grid50l-- vtop p12 colorDarkGrey pl-25">
+                                        <MostrarMarkdown ContenidoMarkdown="@item.Body" />
+                                    </div>
+
+                                    @*<div class="grid100l mt-25">
+                                        
+                                        <div class="grid25c-- vtop" style="border-left: 1px solid #9c9c9c">
+                                            <span class="p12 pbold colorDarkGrey">Xtra Images</span><br />                                         
+                                            @foreach (var el in news)
+                                            {
+                                                var MyGraphId = el.NewsGraphs.Where(x => x.NewsId == item.NewsId).Select(x => x.GraphId).ToList();
+
+                                                for (int i = 0; i < MyGraphId.Count(); i++)
+                                                {
+                                                    var imagen = Graphicos.Where(x => x.GraphId == MyGraphId[i]).Select(x => x.GraphUrl).FirstOrDefault();                                                
+                                                    <img src="@imagen" width="128" height="100" class="pl-5 pr-5" style="border-radius: 5px;" />     
+                                                }
+                                            }
+                                        </div>
+                                    </div>*@
+                                                                       
+                                    <div class="grid100c-- mt-25">
+                                        <h6>[Tags]</h6>
+                                        <hr />
+                                        <span class="p12 colorBlue tags">@item.Tags</span>
+                                    </div>
+                                    <hr />
+                        
+                                    <div class="mt-150"></div>
+
+                                }
+
+                            </HayRegistrosCompleto>
+                        </GenericList>
+                    </div>
+                </div>
+                <div class="grid25l-- vtop stickyNews">
+                    <span class="pbold p14 colorDarkGrey">All Publishings</span><br />
+                    <hr />
+                    @foreach (var item in news)
+                    {
+                        <div id="news">
+                            <span class="p12 colorDarkGrey">@item.Doc.ToString("dd MM yyyy")</span>
+                            <a class="pl-10 txtShadow" href="/blogview/@item.NewsId/@item.Title.Replace(" ","-")"><i class="icon-plus-square pr-10"></i>@item.Title</a>
+                            <hr />
+                        </div>
+
+                    }
+                    <br /><br />
+                    <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
+
+                </div>
+            </div>
+
+            <br />
+            <br />
+
+            @if (news.Count >= 1)
+            {
+                <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
+            }
+
+        }
+
+
+
+</div>
+
+
+
+<div class="mt-150"></div>
+
+
+
+
+@code {
+
+    public int NewsId;
+
+    private List<Model.Shared.News> news { get; set; }
+    private List<Users> users { get; set; }
+    private List<NewsGraphs> newsGraphs { get; set; }
+    private List<Graphs> Graphicos { get; set; }
+
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var respopnseGraphicos = await repo.Get<List<Graphs>>("api/graphs");
+        Graphicos = respopnseGraphicos.Response;
+
+
+        var responseUsers = await repo.Get<List<Users>>("api/users");
+        users = responseUsers.Response;
+        await Load();
+    }
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Model.Shared.News>>($"api/news?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            news = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+}

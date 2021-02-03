@@ -1,0 +1,117 @@
+﻿
+<EditForm Model="News" OnValidSubmit="OnDataAnnotationsValidated">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label>Title</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@News.Title" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Creation Date</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@News.Doc" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Last Update Date</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@News.Dlu" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Body of New</label>
+        <div>
+            <InputTextArea @bind-Value="News.Body" style="width: 100%; height: 300px;" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>User Creator</label>
+        <div>
+            <InputSelect id="UserId" @bind-Value="News.UserId" class="form-control">
+                <option value="0" selected>Please select...</option>
+                @foreach (var user in Users)
+                {
+                    <option value="@user.UserId.ToString()">@user.FullName</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Tags [Comma separated] </label>
+        <div>
+            <InputText class="form-control" @bind-Value="@News.Tags" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Video URL 1 (optional) </label>
+        <div>
+            <InputText class="form-control" @bind-Value="@News.VideoUrl" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>External Link URL [optional]</label>
+        <div>
+            <InputText class="form-control" @bind-Value="@News.LinkUrl" />
+        </div>
+    </div>
+
+    <hr class="hr1" />
+    <div class="form-group">
+        <InputImg Label="Image" ImagenURL="@imagenURL" SelectedImage="SelectedImage" CssClass="img512" />
+
+    </div>
+    <hr class="hr1" />
+    <div class="form-group grid25x ">
+        <label>Is Published ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@News.isActive" />
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+
+</EditForm>
+@code {
+
+    [Parameter] public News News { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public List<Users> Users { get; set; } 
+
+    private string imagenURL;
+
+
+    protected override void OnInitialized()
+    {
+
+        if (!string.IsNullOrEmpty(News.PosterImage))
+        {
+
+            imagenURL = News.PosterImage;
+            News.PosterImage = null;
+        }
+    }
+
+    private void SelectedImage(string imageBase64)
+    {
+        News.PosterImage = imageBase64;
+        imagenURL = null;
+
+    }
+
+    private async Task OnDataAnnotationsValidated()
+    {
+        if (!string.IsNullOrEmpty(News.PosterImage))
+        {
+            imagenURL = null;
+        }
+
+        await OnValidSubmit.InvokeAsync(null);
+    }
+
+
+
+}

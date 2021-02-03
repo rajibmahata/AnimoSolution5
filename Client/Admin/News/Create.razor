@@ -1,0 +1,69 @@
+﻿@page "/admin/news/create"
+@inject NavigationManager nm
+@inject IRepository repo
+@inject IMostrarMensajes mostrarMensajes
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>News Creation</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Lets add some News to be shown in web site.</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+        </div>
+    </div>
+</div>
+
+@if (MostrarFormulario)
+{
+    <NewsForm OnValidSubmit="OnValidSubmit" News="news" Users="users" />
+
+}else
+{
+    <LoadingAsset />
+}
+
+
+
+
+@code {
+
+    private bool MostrarFormulario { get; set; } = false;
+    private News news = new News(); 
+
+    public List<Users> users = new List<Users>();
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        var responseHttp = await repo.Get<List<Users>>("api/users");
+        users = responseHttp.Response;
+        MostrarFormulario = true;
+
+    }
+
+
+    private async Task OnValidSubmit()
+    {
+        var httpResponse = await repo.Post<News, int>("api/news", news);
+        if (httpResponse.Error)
+        {
+            var mensajeError = await httpResponse.GetBody();
+            await mostrarMensajes.MostrarMensajeError(mensajeError);
+        }
+        else
+        {
+            var NewsId = httpResponse.Response;
+            nm.NavigateTo($"admin/news");
+         
+        }
+    }
+}

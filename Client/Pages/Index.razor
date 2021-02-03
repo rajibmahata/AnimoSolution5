@@ -1,0 +1,162 @@
+﻿
+@page "/"
+@inject IJSRuntime jsRuntime
+@inject IRepository repo
+@inject NavigationManager nm
+@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+@inject Blazored.SessionStorage.ISessionStorageService SessionStorage
+@using AnimoWeb.Client.Shared.Web
+@using Model.Shared.Entities
+
+<style>
+    .btn {
+        position: relative;
+        z-index: 9999;
+    }
+
+    #topThree {
+        position: fixed;
+        left: -15px;
+        top: 150px;
+        width: 100%;
+        height: 100%;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+        z-index: 98 !important;
+    }
+</style>
+
+<div class="grid100c">
+    <span class="p14 colorDarkGrey">
+        Seit mehr als <span class="colorRed pbold txtShadow">20 Jahren</span> erstellen wir qualitativ hochwertige 3D Visualisierungen, Animationen und AR|VR-Anwendungen für Industriekunden, <br />
+        Filmproduktionen, Bauträger, Architekten und Werbeagenturen in <span class="pbold colorDarkGrey txtShadow">ganz Europa</span>.
+    </span>
+    <br /><br />
+
+    <div class="wordCarousel mt-50">
+        <span class="p12 colorDarkGrey">We feed the Robot with</span>
+        <div>
+            <ul class="flip4 p22 pbold colorRed">
+                <li>Updates</li>
+                <li>Technology</li>
+                <li>Responsability</li>
+                <li>Screws</li>
+                <li>Some oils</li>
+                <li class="colorRed">Love</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<AnzeigeMsg onCloseAnzeige="CloseAnzeige" @ref="_anzeigeMsg" animoBilboard="@animoBilboard"  />
+
+
+<CookieMsg onCancel="CloseCookie" onConfirm="CloseCookie" @ref="_cookies" />
+
+<div class="gridderRow grid100c mt-100">
+
+
+
+</div>
+<div id="particles-js" class="pJS_canvas_class"></div>
+<div id="topThree"></div>
+
+<div class="mt-500"></div>
+
+
+@code {
+
+    string name = string.Empty;
+    IJSObjectReference moduleUtils;
+    CookieMsg _cookies;
+    AnzeigeMsg _anzeigeMsg;
+    public bool showAnzeigeState = false;
+    private bool isAnythingToShowFromDb = true;
+
+    Bilboard bilboard;
+    public string animoBilboard = "";
+
+
+
+    public async Task Open()
+    {
+        await Task.Delay(5000);
+
+        if (isAnythingToShowFromDb)
+        {
+            var isBilboardAskedToBeClosed = await SessionStorage.GetItemAsync<bool>("PleaseCloseBilboard");
+            if (isBilboardAskedToBeClosed)
+            {
+                _anzeigeMsg.Ocultar();
+            }
+            else
+            {
+                _anzeigeMsg.Mostrar();
+                StateHasChanged();
+                showAnzeigeState = true;
+            }
+        }
+        else
+        {
+            _anzeigeMsg.Ocultar();
+        }
+
+    }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        var httpRequest = await repo.Get<Bilboard>("api/anzeige");
+        if (httpRequest.Response == null)
+        {
+            isAnythingToShowFromDb = false;
+        }
+        else
+        {
+            animoBilboard = httpRequest.Response.BilboardFile;
+            isAnythingToShowFromDb = true;
+        }
+
+        var cookieAccepted = await LocalStorage.GetItemAsync<bool>("cookieAccepted");
+        if (cookieAccepted)
+        {
+            _cookies.Ocultar();
+
+        }
+
+    }
+
+
+
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+
+        if (firstRender)
+        {
+            await jsRuntime.InvokeVoidAsync("particlesJS");
+            moduleUtils = await jsRuntime.InvokeAsync<IJSObjectReference>("import", "./3d/Main.js"); // Modulo
+
+            await moduleUtils.InvokeVoidAsync("AnimoLoader");
+        }
+        await Open();
+    }
+
+    async void CloseCookie()
+    {
+        await LocalStorage.SetItemAsync<bool>("cookieAccepted", true);
+        _cookies.Ocultar();
+        StateHasChanged();
+    }
+    async void CloseAnzeige()
+    {
+        await SessionStorage.SetItemAsync<bool>("PleaseCloseBilboard", true);
+        _anzeigeMsg.Ocultar();
+        showAnzeigeState = false;
+        StateHasChanged();
+    }
+
+}
+
+

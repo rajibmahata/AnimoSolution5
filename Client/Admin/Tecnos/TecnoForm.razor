@@ -1,0 +1,20 @@
+﻿@using Model.Shared
+
+
+<EditForm Model="Tecno" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+    <div class="form-group">
+        <label>Technology name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="Tecno.TecnoName" />
+            <ValidationMessage For="@(() => Tecno.TecnoName)" />
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+</EditForm>
+
+@code {
+    [Parameter] public Tecnos Tecno { get; set; }  
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+}

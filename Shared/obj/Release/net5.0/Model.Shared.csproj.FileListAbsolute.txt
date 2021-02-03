@@ -1,0 +1,24 @@
+D:\Projects\AnimoSolution\Shared\bin\Release\net5.0\Model.Shared.deps.json
+D:\Projects\AnimoSolution\Shared\bin\Release\net5.0\Model.Shared.dll
+D:\Projects\AnimoSolution\Shared\bin\Release\net5.0\ref\Model.Shared.dll
+D:\Projects\AnimoSolution\Shared\bin\Release\net5.0\Model.Shared.pdb
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\Model.Shared.csprojAssemblyReference.cache
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\Model.Shared.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\Model.Shared.AssemblyInfoInputs.cache
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\Model.Shared.AssemblyInfo.cs
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\Model.Shared.csproj.CoreCompileInputs.cache
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\Model.Shared.dll
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\ref\Model.Shared.dll
+D:\Projects\AnimoSolution\Shared\obj\Release\net5.0\Model.Shared.pdb
+H:\Upwork\New folder\AnimoSolution5-0\Shared\bin\Release\net5.0\Model.Shared.deps.json
+H:\Upwork\New folder\AnimoSolution5-0\Shared\bin\Release\net5.0\Model.Shared.dll
+H:\Upwork\New folder\AnimoSolution5-0\Shared\bin\Release\net5.0\ref\Model.Shared.dll
+H:\Upwork\New folder\AnimoSolution5-0\Shared\bin\Release\net5.0\Model.Shared.pdb
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\Model.Shared.csprojAssemblyReference.cache
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\Model.Shared.GeneratedMSBuildEditorConfig.editorconfig
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\Model.Shared.AssemblyInfoInputs.cache
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\Model.Shared.AssemblyInfo.cs
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\Model.Shared.csproj.CoreCompileInputs.cache
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\Model.Shared.dll
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\ref\Model.Shared.dll
+H:\Upwork\New folder\AnimoSolution5-0\Shared\obj\Release\net5.0\Model.Shared.pdb

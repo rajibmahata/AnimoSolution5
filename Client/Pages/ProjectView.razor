@@ -1,0 +1,264 @@
+﻿@page "/projectview/{ProjectId:int}"
+@page "/projectview/{ProjectId:int}/{Name}"
+@inject NavigationManager nm
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+
+<style>
+
+    /* trigger button */
+    .button {
+    }
+
+    /* modal body */
+    .details-modal {
+        border-radius: 6px;
+        box-shadow: 0 0px 10px rgba(0, 0, 0, 0.2);
+        left: 50%;
+        max-width: 100%;
+        pointer-events: none;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        max-height: 100%;
+        z-index: 500 !important;
+    }
+
+        /* modal content */
+        .details-modal .details-modal-content {
+            pointer-events: all;
+            overflow: auto;
+        }
+
+    /* modal overlay */
+    .details-modal-overlay {
+        transition: opacity 0.5s ease-out;
+        pointer-events: none;
+        background: rgba(10, 10, 10, 0.9);
+        position: fixed;
+        opacity: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+    }
+
+    details[open] .details-modal-overlay {
+        pointer-events: all;
+        opacity: 0.6;
+    }
+
+    details summary:focus {
+        outline: none;
+    }
+
+    details summary::-webkit-details-marker {
+        display: none;
+    }
+</style>
+
+<div class="grid100r stickyBack mt-50minus">
+    <GoBack />
+</div>
+
+<div class="grid100c">
+    <h3 class="txtShadow ">Project  <span class="p13 colorMedGrey tags pr-25"> [ @Name.Replace("-"," ")]</span> </h3>
+
+    <div class="mt-100"></div>
+</div>
+
+
+
+
+@if (thisProject == null)
+{
+    <LoadingAsset />
+}
+else
+{
+<div class="tablePadded20">
+    <div class="grid100c-- titlesBack1">
+
+        <div class="grid50l-- mt-10">
+            <span class="colorDarkGrey pl-10 p14 pbold">@thisProject.Name</span>
+        </div>
+
+        <div class="grid50r-- mt-10">
+            <span class="p11 colorDarkGrey">Created: @thisProject.Doc.ToString("dd MM yyyy") </span>
+        </div>
+
+    </div>
+
+    <div class="grid100c--">
+        @if (!string.IsNullOrEmpty(thisProject.VideoPreview))
+        {
+            <div class="mt-10">
+                <video autoplay="autoplay" loop class="imgResponsive imgBorder100">
+                    <source src="@thisProject.VideoPreview" type="video/mp4" class="">
+                </video>
+            </div>
+        }
+        else
+        {
+            <div class="mt-10">
+                <img src="@thisProject.Poster" alt="@thisProject.Name" class="imgResponsive imgBorder100" />
+            </div>
+        }
+    </div>
+
+
+    <div class="grid100-- hh-40 mt-10">
+        <span class="p14 colorMedGrey pbold">
+            Client <br />
+            <span class="p14 pbold colorRed">@thisProject.KundeName</span>
+        </span><br />
+        <span class="p11 colorDarkGrey">Updated at: @thisProject.Dlu.ToString("dd MM yyyy") </span>
+
+    </div>
+    <hr />
+    <div class="grid75l-- vtop p12 colorDarkGrey pr-25">
+        <MostrarMarkdown ContenidoMarkdown="@thisProject.Description" />
+    </div>
+    @if (newsImagesList != null)
+    {
+        <div class="grid25c-- vtop" style="border-left: 1px solid #9c9c9c">
+            <span class="p12 pbold colorDarkGrey">Xtra Images</span><br />
+
+
+            @foreach (var el in newsImagesList)
+            {
+                var MyGraph = el.Image.ImageFile;
+                <div class="details-modal-overlay">
+                </div>
+
+                <details>
+                    <summary>
+                        <div class="button">
+                            <img src="@MyGraph" class="img128 mt-10">
+                        </div>
+                        <div class="details-modal-overlay"></div>
+                    </summary>
+                    <div class="details-modal">
+                        <div class="details-modal-content">
+                            <img src="@MyGraph" class="imgResponsive imgBorder100">
+                        </div>
+                    </div>
+                </details>
+            }
+           
+        </div>
+
+    }
+        <hr />
+
+        <div class="grid100l">
+            <span class="p14 colorMedGrey pbold">Technologies applied</span>
+            <div class="mt-10" style="text-align: center;">
+                @for (int i = 0; i < model.Tecnos.Count; i++)
+                {
+                    @enlanceTecno(model.Tecnos[i])<text><span class="ml-8" ></span></text>
+                }
+            </div>
+
+        </div>
+ 
+
+        @if (!string.IsNullOrEmpty(thisProject.VideoUrl))
+        {
+
+            <div class="grid100l-- mt-50">
+                <span class="p14 colorMedGrey pbold">Video sample</span>
+                <hr />
+                <div class="containering">
+                    <iframe src="https://www.youtube.com/embed/@thisProject.VideoUrl" frameborder="0"
+                            allow="accelerometer;autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="video imgBorderRad6"></iframe>
+                </div>
+            </div>
+        }
+
+    </div>
+
+
+}
+
+
+
+<div class="mt-250"></div>
+<div class="mt-100"></div>
+
+
+
+@code {
+
+    [Parameter] public int ProjectId { get; set; }
+    [Parameter] public string Name { get; set; }
+
+
+    private Model.Shared.Projects thisProject { get; set; }
+    private Tecnos Tecnos { get; set; }
+    private ProjectImages projectImages { get; set; }
+    private List<Images> images { get; set; }
+
+    public ViewProjectDTO model = new ViewProjectDTO();
+    private RenderFragment<Tecnos> enlanceTecno = (Tecnos) =>@<div class="colorLightGrey p12 badge badge-dark" style="text-align:left;">@Tecnos.TecnoName</div>;
+
+
+    public List<ProjectImages> newsImagesList = new List<ProjectImages>();
+    public int cantidad = 0;
+
+
+    protected async override Task OnInitializedAsync()
+    {
+    // Obtengo sus Imagenes
+    var httpResponse = await repo.Get<ViewProjectImagesDTO>($"api/projectimages/{ProjectId}");
+    if (httpResponse.Error)
+    {
+    await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+    }
+    else
+    {
+    newsImagesList = httpResponse.Response.ProjectImages;
+    thisProject = httpResponse.Response.Project;
+
+    if (newsImagesList == null)
+    {
+    cantidad = 0;
+    }
+    else
+    {
+    newsImagesList = httpResponse.Response.ProjectImages;
+    cantidad = newsImagesList.Count;
+    }
+    }
+
+    var responseGraphicos = await repo.Get<List<Images>>("api/images");
+    images = responseGraphicos.Response;
+
+    var httpModelRequest = await repo.Get<ViewProjectDTO>($"api/projects/{ProjectId}");
+
+
+    // Chequeo Tecnologias
+    if (httpResponse.Error)
+    {
+    if (httpResponse.HttpResponseMessage.StatusCode == System.Net.HttpStatusCode.NotFound)
+    {
+    nm.NavigateTo("admin");
+    }
+    else
+    {
+    await mostrar.MostrarMensajeError("Another Error - Check SysAdmin");
+    }
+    }
+    else
+    {
+    model = httpModelRequest.Response;
+    }
+
+
+
+
+    }
+
+
+    }

@@ -1,0 +1,92 @@
+﻿@page "/admin/projects/edit/{ProjectId:int}"
+@page "/admin/projects/edit/{ProjectId:int}/{Name}"
+@inject NavigationManager nm
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Project Edition</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">This is to edit the Project </p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+            <a href="admin/projects/addimages/@ProjectId/@Name" class="btn btn-success">Add Images</a>
+        </div>
+    </div>
+</div>
+
+
+    @if (Project == null)
+     {
+        <LoadingAsset />
+     }
+    else
+     {
+        <FormProjects Project="Project" OnValidSubmit="handleEdit" TecnosNoSeleccionados="TecnosUnSelected" TecnosSeleccionados="TecnosSelected"  >
+        </FormProjects>
+     }
+
+
+
+
+
+
+@code {
+
+    [Parameter] public int ProjectId { get; set; }
+    [Parameter] public string Name { get; set; }
+    Projects Project;
+    private List<Tecnos> TecnosUnSelected = new List<Tecnos>();
+    private List<Tecnos> TecnosSelected = new List<Tecnos>();
+    private List<Images> relatedImages { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var httpResponse = await repo.Get<ViewUpdateProjectDTO>($"api/projects/update/{ProjectId}");
+
+        if (httpResponse.Error)
+        {
+            var mensajeError = await httpResponse.GetBody();
+            await mostrar.MostrarMensajeError(mensajeError);
+        }
+        else
+        {
+            var model = httpResponse.Response;
+            relatedImages = model.ProjectImages;
+            TecnosUnSelected = model.TecnosUnSelected;
+            TecnosSelected = model.TecnosSelected;
+            Project = model.Project;
+        }
+
+    }
+
+
+    private async Task handleEdit()
+    {
+        var httpResponse = await repo.Put("api/projects", Project);
+
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            nm.NavigateTo($"admin/projects");
+        }
+
+        return;
+    }
+
+
+}

@@ -1,0 +1,85 @@
+﻿@page "/admin/users/employees/create"
+@using Model.Shared.Entities
+@inject IRepository repo
+@inject NavigationManager nm
+@inject IMostrarMensajes mostrarMensajes 
+
+
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>User creation</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Add Users</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>         
+        </div>
+    </div>
+</div>
+
+<div class="mt-25 grid100l--">
+
+    @if (paises.Count < 1)
+    {
+        <LoadingAsset />
+    }
+    else
+    {
+     
+        <EmployeesForm userRegister="userRegister" OnValidSubmit="HandleCreate" paises="paises" firmas="firmas" roles="roles" />
+    }
+
+
+</div>
+
+
+
+@code {
+
+    //private Users users = new Users();
+    public List<Landes> paises = new List<Landes>();
+    public List<Roles> roles = new List<Roles>();
+    public List<Firmas> firmas = new List<Firmas>();
+
+    private VMUserRegister userRegister = new VMUserRegister();
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        var ResponsePaises = await repo.Get<List<Landes>>("api/landes");
+        paises = ResponsePaises.Response;
+
+        var ResponseRoles = await repo.Get<List<Roles>>("api/roles");
+        roles = ResponseRoles.Response;
+
+        var ResponseFirmas = await repo.Get<List<Firmas>>("api/firmas");
+        firmas = ResponseFirmas.Response;
+    }
+
+
+    private async Task HandleCreate()
+    {
+
+        var result = await repo.Post("api/users", userRegister);   
+        if (result.Error)
+        {
+            var body = await result.GetBody();
+            await mostrarMensajes.MostrarMensajeError(body);
+        }
+        else
+        {
+            nm.NavigateTo("/admin/users/employees");
+        }
+
+       
+    }
+
+}

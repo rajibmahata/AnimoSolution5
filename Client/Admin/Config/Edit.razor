@@ -1,0 +1,86 @@
+﻿@page "/admin/config/edit/{Id:int}"
+@page "/admin/config/edit/{Id:int}/{Name}"
+@inject NavigationManager nm
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Project Edition</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">This is to edit the Project </p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>       
+        </div>
+    </div>
+</div>
+
+
+    @if (config == null)
+     {
+        <LoadingAsset />
+     }
+    else
+     {
+            <EditForm Model="config" OnValidSubmit="handleEdit">
+                <DataAnnotationsValidator />
+
+
+
+            </EditForm>
+     }
+
+
+
+
+@code {
+
+    [Parameter] public int Id { get; set; }
+    [Parameter] public string FirmaName { get; set; }
+    GlobalConfig config;
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var httpResponse = await repo.Get<GlobalConfig>($"api/config/update/{Id}");
+
+        if (httpResponse.Error)
+        {
+            var mensajeError = await httpResponse.GetBody();
+            await mostrar.MostrarMensajeError(mensajeError);
+        }
+        else
+        {           
+            config = httpResponse.Response;
+        }
+
+    }
+
+
+    private async Task handleEdit()
+    {
+        var httpResponse = await repo.Put("api/projects", config);
+
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            nm.NavigateTo($"admin/config");
+        }
+
+        return;
+    }
+
+
+}

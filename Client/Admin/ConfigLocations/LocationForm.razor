@@ -1,0 +1,86 @@
+﻿@using Model.Shared.Entities
+@inject IRepository repo
+
+<EditForm Model="globalLocation" OnValidSubmit="OnValidSubmit">
+    <DataAnnotationsValidator />
+  
+    <div class="form-group">
+        <label>Location Reference name:</label>
+        <div>
+            <InputText class="form-control" @bind-Value="globalLocation.LocationReference" />      
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Street Full Address</label>
+        <div>
+            <InputText class="form-control" @bind-Value="globalLocation.StreetFull" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Zip Code</label>
+        <div>
+            <InputText class="form-control" @bind-Value="globalLocation.Zip" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Town / Bezirk</label>
+        <div>
+            <InputText class="form-control" @bind-Value="globalLocation.Town" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Land</label>
+        <div>
+            <InputSelect id="LandeId" @bind-Value="globalLocation.LandeId" class="form-control">
+                <option value="0" selected>Please select...</option>
+                @foreach (var pais in paises)
+                {
+                    <option value="@pais.LandeId.ToString()">@pais.LandeName</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Phone 1</label>
+        <div>
+            <InputText class="form-control" @bind-Value="globalLocation.Phone1" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Phone 2</label>
+        <div>
+            <InputText class="form-control" @bind-Value="globalLocation.Phone2" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Contact Email</label>
+        <div>
+            <InputText class="form-control" @bind-Value="globalLocation.Mail" />
+        </div>
+    </div>
+
+    <div class="form-group grid25x ">
+        <label>Is Active ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@globalLocation.isAcive" />
+        </div>
+    </div>
+
+
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+</EditForm>
+
+@code {
+    [Parameter] public GlobalLocations globalLocation { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public List<Landes> paises { get; set; }
+
+
+   
+
+
+
+}

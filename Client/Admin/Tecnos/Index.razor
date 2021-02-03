@@ -1,0 +1,118 @@
+﻿@page "/admin/tecnos"
+@using Model.Shared
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Available list of Technologies</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Tecnos are necesary to be applied to Projects at the moment of their creation.</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+            <a href="admin/tecnos/create" class="btn btn-primary">Create Record</a>
+        </div>
+    </div>
+</div>
+
+@if (Tecnos == null)
+{
+    <LoadingAsset></LoadingAsset>
+}
+else
+{
+    <GenericList Listado="Tecnos">
+        <HayRegistrosCompleto>
+
+            <div class="mr-50 ml-50">
+                <div class="divTable greyGridTable">
+                    <div class="divTableHeading ">
+                        <div class="divTableRow ">
+                            <div class="divTableHead grid75l--">Technology</div>
+                            <div class="divTableHead grid25c--">Actions</div>
+                        </div>
+                    </div>
+                    <div class="divTableBody ">
+                        @foreach (var item in Tecnos)
+                        {
+                            <div class="divTableRow">
+                                <div class="divTableCell grid75l--">@item.TecnoName</div>
+                                <div class="divTableCell grid25c--">
+                                    <a href="admin/tecnos/edit/@item.TecnoId" class="btn btn-success">Edit</a>
+                                    <button @onclick="@(() => DeleteTecno(item))" class="btn btn-danger">Delete</button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="divTableFoot tableFootStyle">
+                    </div>
+                </div>
+            </div>
+        </HayRegistrosCompleto>
+    </GenericList>
+    <br /><br />
+    <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
+}
+
+
+
+
+
+@code {
+
+    public List<Tecnos> Tecnos { get; set; }
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await Load();
+    }
+
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Tecnos>>($"api/tecnos?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            Tecnos = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+
+    }
+
+    private async Task DeleteTecno(Tecnos tecno)
+    {
+        var responseHttp = await repo.Delete($"api/tecnos/{tecno.TecnoId}");
+        if (responseHttp.Error)
+        {
+            await mostrar.MostrarMensajeError(await responseHttp.GetBody());
+        }
+        else
+        {
+            await Load();
+        }
+
+    }
+
+
+
+}

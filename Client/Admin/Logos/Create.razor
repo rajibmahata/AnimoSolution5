@@ -1,0 +1,56 @@
+﻿@page "/admin/logos/create" 
+@using Model.Shared.Entities
+@inject IRepository repo
+@inject NavigationManager nm
+@inject IMostrarMensajes mostrarMensajes 
+
+
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Logo add</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Add Logos here</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>         
+        </div>
+    </div>
+</div>
+
+<div class="mt-25 grid100l--">
+
+        <LogosForm logos="logos" OnValidSubmit="HandleCreate" />
+
+</div>
+
+
+
+@code {
+
+    private Logos logos = new Logos();
+
+    
+    private async Task HandleCreate()
+    {
+
+        var httpResponse = await repo.Post("api/logos", logos);
+        if (httpResponse.Error)
+        {
+            var body = await httpResponse.GetBody();
+            await mostrarMensajes.MostrarMensajeError(body);
+
+        } else
+        {
+            nm.NavigateTo("/admin/logos");
+        }
+    }
+
+}

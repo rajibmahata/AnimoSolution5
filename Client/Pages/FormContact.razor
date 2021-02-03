@@ -1,0 +1,59 @@
+﻿@using Model.Shared.Entities
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+
+<EditForm Model="contactForm" OnSubmit="OnValidSubmit"> 
+    <DataAnnotationsValidator />
+
+    <div class="grid100c-- mt-50 tablePadded10">
+        <div class="grid100c--">
+            <div class="tablePadded10">
+                <p class="p16 pbold colorDarkGrey">Contact us</p><br />
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <div class="">
+                        <InputText class="form-control " @bind-Value="contactForm.FullName" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Email Address</label>
+                    <div>
+                        <InputText class="form-control" @bind-Value="contactForm.EmailAddress" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Your company</label>
+                    <div>
+                        <InputText class="form-control" @bind-Value="contactForm.Firma" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Your message</label>
+                    <div>
+                        <InputTextArea @bind-Value="contactForm.Message" style="width: 100%; height: 300px;" />
+                    </div>
+                </div>
+
+                <br />
+
+
+            </div>
+        </div>
+                  <button type="submit" class="btn btn-primary">Send</button><br /><br />
+
+    </div>
+</EditForm>
+
+@code {
+    [Parameter] public ContactFormDTO contactForm { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+
+
+
+
+
+
+}

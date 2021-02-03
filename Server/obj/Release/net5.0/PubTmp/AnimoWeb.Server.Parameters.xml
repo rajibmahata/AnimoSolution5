@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="animoweb" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^H:\\Upwork\\New\ folder\\AnimoSolution5-0\\Server\\obj\\Release\\net5\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

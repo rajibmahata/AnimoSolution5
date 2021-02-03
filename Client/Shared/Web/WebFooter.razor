@@ -1,0 +1,157 @@
+﻿@using Model.Shared.Entities
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+<div class="grid100c gridderRow pb-50" id="footerWeb">
+
+    <div class="grid60c mt-25">
+
+
+        @if (locations != null)
+        {
+            foreach (var item in locations)
+            {
+        <div class="grid50l-- vtop" id="footerRight">
+            <div style="display: inline-block;">
+                <img src="@landes.Where(x => x.LandeId == @item.LandeId).Select(x => x.LandeFlag).FirstOrDefault()" /> <h4 class="txtShadow">@landes.Where(x => x.LandeId == @item.LandeId).Select(x => x.LandeName).FirstOrDefault()</h4>
+            </div>
+            <hr class="hr4" />
+            <span class="icon-map-marker fa-1x pr-5 colorRed hh-25"><text class="p11 colorDarkGrey pl-10 other">@item.StreetFull  </text></span>
+            <span class="icon-map-marker fa-1x pr-5 colorTransparent hh-25"><text class="p11 colorDarkGrey pl-10 other">@item.Zip | @item.Town</text></span>
+            <span class="icon-phone fa-1x pr-5 colorRed hh-25" style="padding-left:1px;"><text class="p11 colorDarkGrey pl-10 other">@item.Phone1</text></span>
+            <span class="icon-at fa-1x pr-5 colorRed hh-25"><text class="p11 colorDarkGrey pl-10 other">@item.Mail</text></span>
+        </div>
+            }
+
+        }
+        else
+        {
+            <div class="grid50l-- vtop" id="footerRight">
+                <img src="/images/identity/animoSm.png" alt="Animations and More GmbH" />
+            </div>
+            <div class="grid50l-- vtop" id="footerRight">
+                <img src="/images/identity/animoSm.png" alt="Animations and More GmbH" />
+            </div>
+        }
+
+
+
+
+        <div class="grid100l mt-50">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2502.6525647478334!2d9.62436595923186!3d47.35311730739195!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sat!4v1607589004094!5m2!1sen!2sat" frameborder="0" style="border:0;" allowfullscreen="true" aria-hidden="false" tabindex="0" id="gmap"></iframe>
+        </div>
+
+    </div>
+
+    <div class="grid40l mt-25">
+        <img src="./images/identity/iconitoSocial.png" /><h4 class="txtShadow">Get Social !</h4>
+        <hr class="hr4" />
+        <div class="grid50l-- vtop">
+
+            @if (socials != null)
+            {
+                foreach (var item in socials.Where(x => x.isActive == true))
+                {
+                    <a href="@item.TargetUrl" class="pr-25" target="_blank"><img src="@item.SocialIconUrl" width="32" height="32" class="imgBorderRad6" /></a>                    
+                }
+
+            }
+            else
+            {
+                <a href="#" class="pr-25"><span class="icon-youtube fa-4x colorRed "></span></a>
+                <a href="#" class="pr-25"><span class="icon-linkedin fa-4x colorRed"></span></a>
+                <a href="#" class="pr-25"><span class="icon-blogger fa-4x colorRed"></span></a>
+            }
+
+
+
+
+            <h6 class="mt-50 txtShadow">Animations and More gmbh & co.kg</h6>
+            <hr class="hr4" />
+            <a href="contact"><span class="icon-angle-right fa-0x pr-5 colorOrangePurple hh-25"><text class="p12 colorOrangePurple pl-5 other pbold">Contact</text></span></a><br />
+            <a href="impressum"><span class="icon-angle-right fa-0x pr-5 colorDarkGrey hh-25"><text class="p12 colorDarkGrey pl-5 other">Impressum</text></span></a><br />
+
+
+
+            <a href="news"><span class="icon-angle-right fa-0x pr-5 colorDarkGrey hh-25"><text class="p12 colorDarkGrey pl-5 other">News</text></span></a><br />
+            <h6 class="mt-50 mt-25">Management</h6>
+            <hr class="hr4" />
+            <a href="#"><span class="icon-cog fa-0x pr-5 colorOrangePurple hh-25"><text class="p12 colorOrangePurple pl-5 other pbold">Client Console</text></span></a><br />
+            <a href="admin/"><span class="icon-unlock fa-0x pr-5 colorOrangePurple hh-25"><text class="p12 colorDarkGrey pl-5 other">Animo internal</text></span></a>
+
+
+        </div>
+        <div class="grid50c-- " id="animoSocial">
+
+        </div>
+    </div>
+
+
+</div>
+<div class="grid100c--" id="xtraFooter">
+    <br />
+    <img src="./images/identity/logoNomalShadow.png" alt="3D animations, 3D Interactive products, Virtual reality, Mixed Reality, Augmented Reality" class="imgResponsive" /><br />
+    <div class="mt-50"></div>
+
+    <span class="p12 colorLightGrey mt-25">All right reserverded 2021</span><br />
+    <span class="p11 colorLightGrey">Copy partial or entire contents from this URL without explicit permission is forbiden</span>
+    <div class="mt-25"></div>
+</div>
+
+
+
+
+
+@code {
+
+    public List<GlobalLocations> locations = new List<GlobalLocations>();
+    public List<Landes> landes = new List<Landes>();
+    public List<Social> socials = new List<Social>();
+    
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var configLocations = await repo.Get<List<GlobalLocations>>("api/globallocations");
+
+        if (configLocations.HttpResponseMessage.IsSuccessStatusCode)
+        {
+            locations = configLocations.Response;
+        }
+        else
+        {
+            await mostrar.MostrarMensajeError("Another Error - Check SysAdmin");
+        }
+
+        var repoPaises = await repo.Get<List<Landes>>("api/landes");
+        landes = repoPaises.Response;
+
+        await Load();
+
+
+    }
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Social>>($"api/socials?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            socials = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+
+}

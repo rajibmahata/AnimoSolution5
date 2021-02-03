@@ -1,0 +1,35 @@
+﻿@if (showCookieDiv) 
+{
+    <div class="fade show" id="Cookies" tabindex="-1">
+        <div class="gid100c">
+            <div class="grid50c-- vtop mt-10">
+                <div class="mt-10">
+                    <h6 class="colorLightGrey ">Cookie Disclaimer</h6>
+                </div>
+                
+            </div>
+            <div class="grid50c--">
+                <div class="grid50l-- mt-10 vtop">
+                    <div class="p11 colorLightGrey">
+                        This Sites uses Cookies in a very low and simple usage... <br />
+                        Are you agree by storing your session ?
+                    </div>             
+                </div>
+                <div class="grid50c-- vtop mt-10 ">                 
+                    <button @onclick="onCancel" type="button" class="btn btn-secondary">Not Agree</button>
+                    <button @onclick="onConfirm" type="button" class="btn btn-success">Thats Ok!</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+}
+
+@code {
+    private bool showCookieDiv = true; 
+    [Parameter] public EventCallback onConfirm { get; set; }
+    [Parameter] public EventCallback onCancel { get; set; }
+    public void Mostrar() => showCookieDiv = true;
+    public void Ocultar() => showCookieDiv = false;
+
+}

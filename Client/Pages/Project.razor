@@ -1,0 +1,381 @@
+﻿@page "/projects"
+@inject IRepository repo
+@inject NavigationManager nm
+
+<style>
+
+    .trapper {
+        max-width: 540px;
+        width: 100%;
+        height: auto;
+        background: #eaeaea;
+        margin: -0px;
+        margin-left: 3px;
+        margin-right: 3px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 6px 6px 6px 6px;
+        box-shadow: 0;
+        transform: scale(1);
+        transition: box-shadow 0.5s, transform 0.5s;
+        border: 1px solid #ededed;
+        box-shadow: 0 0 2px #909090;
+    }
+
+        .trapper:hover {
+            transform: scale(1);
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+        }
+
+        .trapper .kontainer {
+            width: 100%;
+            height: 100%;
+        }
+
+            .trapper .kontainer .top {
+                height: 80%;
+                width: 100%;
+                -webkit-background-size: 100%;
+                -moz-background-size: 100%;
+                -o-background-size: 100%;
+                background-size: 100%;
+            }
+
+            .trapper .kontainer .bottom {
+                width: 200%;
+                height: 20%;
+                transition: transform 0.5s;
+            }
+
+                .trapper .kontainer .bottom.clicked {
+                    transform: translateX(-50%);
+                }
+
+                .trapper .kontainer .bottom .left {
+                    height: 100%;
+                    width: 50%;
+                    background: #d8d8d8;
+                    position: relative;
+                    float: left;
+                }
+
+        .trapper .inside {
+            z-index: 9;
+            background: #333333;
+            width: 140px;
+            height: 140px;
+            position: absolute;
+            top: -70px;
+            right: -70px;
+            border-radius: 0px 0px 200px 200px;
+            transition: all 0.5s, border-radius 2s, top 1s;
+            overflow: hidden;
+            opacity: 0.85;
+        }
+
+            .trapper .inside .icon {
+                position: absolute;
+                right: 85px;
+                top: 80px;
+                color: white;
+                opacity: 1;
+            }
+
+            .trapper .inside:hover {
+                width: 100%;
+                right: 0;
+                top: 0;
+                border-radius: 0;
+                height: 100%;
+            }
+
+                .trapper .inside:hover .icon {
+                    opacity: 0;
+                    right: 15px;
+                    top: 15px;
+                }
+
+                .trapper .inside:hover .contents {
+                    opacity: 1;
+                    transform: scale(1);
+                    transform: translateY(0);
+                }
+
+            .trapper .inside .contents {
+                padding: 5%;
+                opacity: 0;
+                transform: scale(0.5);
+                transform: translateY(-200%);
+                transition: opacity 0.2s, transform 0.8s;
+            }
+</style>
+
+<div class="grid100c">
+    <h3 class="txtShadow ">Projects  <span class="p13 colorMedGrey tags"> [ PORTFOLIO ]</span> </h3>
+    <span class="p13 colorDarkGrey">
+        Text lorem ipsum for Projects...<br />
+        Lets talk about trust , attendace, more...
+    </span>
+    <div class="mt-50"></div>
+
+    <div class="" style="margin-left: 25%">
+        <div class="form-inline" style="">
+            <div class="form-group pr-25">
+                <label for="Name" class="sr-only">Name</label>
+                <input @bind-value="Name" @bind-value:event="oninput"
+                       @onkeypress="@((KeyboardEventArgs e) => NameKeyPress(e))"
+                       type="text" class="form-control" id="Name" placeholder="Project Name" />
+            </div>
+            <div class="form-group pr-25">
+                <select class="form-control" @bind="tecnoSelected">
+                    <option value="0">-- Select a Technology</option>
+                    @foreach (var item in tecnos)
+                    {
+        <option value="@item.TecnoId">@item.TecnoName</option>
+}
+                </select>
+            </div>
+            <div class="form-group pr-25">
+                <input type="checkbox" name="locations" class="form-check-input" id="isvorarlberg" @bind="isvorarlberg"
+                       @onclick="@ChangeStateVorarlberg" />
+                <label class="form-check-label p12" for="isvorarlberg">
+                    In Vorarlberg
+                </label>
+            </div>
+            <div class="form-group pr-25">
+                <input type="checkbox" name="locations" class="form-check-input" id="isrestaustria" @bind="isrestaustria"
+                       @onclick="@changeStateRestAustria" />
+                <label class="form-check-label p12" for="isrestaustria">
+                    Rest of Osterreich
+                </label>
+            </div>
+            <div class="form-group pr-25">
+                <input type="checkbox" name="locations" class="form-check-input" id="isinternational" @bind="isinternational"
+                       @onclick="changeStateInternational" />
+                <label class="form-check-label p12" for="isinternational">
+                    Internationals
+                </label>
+            </div>
+
+            <button type="button" class="btn btn-info pr-25" @onclick="LimpiarOnClick">Restart | Clean</button>
+            <button type="button" class="btn btn-primary " @onclick="LoadNewProjects">Search</button>
+
+        </div>
+    </div>
+
+
+    @if (projects == null || projects.Count < 1)
+    {
+        <div class="mt100"></div>
+        <br /><br />
+        <h6 class="colorRed">No Records were found...</h6>
+    
+    }
+else
+{ <div class="grid100c-- mt-50">
+    <div class=" vtop">
+        <div class="" id="news">
+
+            @foreach (var item in projects)
+            {
+                <div class="trapper mt-25 grid25c--">
+                    <div class="kontainer ">
+                        <div>
+                            @if (!string.IsNullOrEmpty(item.VideoPreview))
+                            {
+                <a href="/projectview/@item.ProjectId/@item.Name.Replace(" ","-")">
+                    <video autoplay="autoplay" loop class="imgResponsive2">
+                        <source src="@item.VideoPreview" type="video/mp4">
+                    </video>
+                </a> }
+                else
+                {
+                <a href="/projectview/@item.ProjectId/@item.Name.Replace(" ","-")"><img src="@item.Poster" alt="@item.Name" class=" imageFilter  imgResponsive" /></a>}
+                        </div>
+                    </div>
+                    <div class="inside grid100c">
+                        <div class="icon"><i class="icon-search-plus fa-2x"></i></div>
+                        <div class="contents" style="text-align: left;">
+                            <div class="">
+                                <br />
+                                <a href="/projectview/@item.ProjectId/@item.Name.Replace(" ","-")"><span class="colorWhite pl-10 p13 pbold">@item.Name</span></a>
+                            </div>
+                            <hr class="hr2" />
+                            <div class="mt-5">
+                                <br />
+                                <a href="/projectview/@item.ProjectId/@item.Name.Replace(" ","-")"><span class="colorWhite pl-10 p12">@item.KundeName</span></a>
+                            </div>
+                            <div class="">
+
+                                <a href="/projectview/@item.ProjectId/@item.Name.Replace(" ","-")"><span class="colorWhite pl-10 p12">@item.Doc.ToString("MM yyyy")</span></a>
+                            </div><br />
+                        </div>
+                    </div>
+                </div>}
+
+
+        </div>
+    </div>
+</div>
+
+                <div class="mt-100"></div>
+
+                                @if (projects.Count >= 1)
+                                {
+                <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>}}
+
+</div>
+<div class="mt-150"></div>
+
+@code { 
+    
+    
+    private List<Model.Shared.Projects> projects = new List<Model.Shared.Projects>();
+
+    string Name = "";
+    string tecnoSelected = "0";
+    private bool isvorarlberg = false;
+    private bool isrestaustria = false;
+    private bool isinternational = false;
+    private List<Tecnos> tecnos = new List<Tecnos>();
+
+    Dictionary<string, string> queryStringsDict = new Dictionary<string, string>();
+
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        await ObtenerTecnos();
+
+        var url = nm.Uri;
+
+        var queries = nm.ObtenerQueryStrings(url);
+
+        if (queries == null)
+        {
+            await RealizarBusqueda(string.Empty);
+        }
+        else
+        {
+            queryStringsDict = queries;
+            LlenarCampos();
+            var queryStrings = url.Split(new string[] { "?" }, StringSplitOptions.None)[1];
+            await RealizarBusqueda(queryStrings);
+        }
+    }
+
+    private void LlenarCampos()
+    {
+        if (queryStringsDict.ContainsKey("tecnoid"))
+        {
+            tecnoSelected = queryStringsDict["tecnoid"];
+        }
+
+        if (queryStringsDict.ContainsKey("Name"))
+        {
+            Name = queryStringsDict["Name"];
+        }
+
+        if (queryStringsDict.ContainsKey("isvorarlberg"))
+        {
+            bool.TryParse(queryStringsDict["isvorarlberg"], out isvorarlberg);
+        }
+
+        if (queryStringsDict.ContainsKey("isrestaustria"))
+        {
+            bool.TryParse(queryStringsDict["isrestaustria"], out isrestaustria);
+        }
+
+        if (queryStringsDict.ContainsKey("isinternational"))
+        {
+            bool.TryParse(queryStringsDict["isinternational"], out isinternational);
+        }
+
+        if (queryStringsDict.ContainsKey("pagina"))
+        {
+            int.TryParse(queryStringsDict["pagina"], out paginaActual);
+        }
+    }
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await LoadNewProjects();
+    }
+
+    private async Task ObtenerTecnos()
+    {
+        var httpResponse = await repo.Get<List<Tecnos>>("api/tecnos");
+        tecnos = httpResponse.Response;
+    }
+
+    private async Task NameKeyPress(KeyboardEventArgs e)
+    {
+        if (e.Key == "Enter")
+        {
+            await LoadNewProjects();
+        }
+    }
+
+    private async Task LoadNewProjects()
+    {
+        var queryStrings = GenerarQueryStrings();
+        nm.NavigateTo("/projects?" + queryStrings);
+        await RealizarBusqueda(queryStrings);
+    }
+
+    private async Task RealizarBusqueda(string queryStrings)
+    {
+        var httpResponse = await repo.Get<List<Model.Shared.Projects>>("api/projects/filter?" + queryStrings);
+        paginasTotales = int.Parse(httpResponse.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        projects = httpResponse.Response;
+    }
+
+    private string GenerarQueryStrings()
+    {
+        if (queryStringsDict == null) { queryStringsDict = new Dictionary<string, string>(); }
+        queryStringsDict["tecnoid"] = tecnoSelected;
+        queryStringsDict["Name"] = Name;
+        queryStringsDict["isvorarlberg"] = isvorarlberg.ToString();
+        queryStringsDict["isrestaustria"] = isrestaustria.ToString();
+        queryStringsDict["isinternational"] = isinternational.ToString();
+        queryStringsDict["pagina"] = paginaActual.ToString();
+
+        var valoresPorDefecto = new List<string>() { "false", "", "0" };
+
+        // generoid=7&titulo=spider ...
+
+        return string.Join("&", queryStringsDict.Where(x => !valoresPorDefecto.Contains(x.Value.ToLower()))
+            .Select(x => $"{x.Key}={System.Web.HttpUtility.UrlEncode(x.Value)}").ToArray());
+    }
+
+    private async Task LimpiarOnClick()
+    {
+        Name = "";
+        tecnoSelected = "0";
+        isvorarlberg = false;
+        isrestaustria = false;
+        isinternational = false;
+        paginaActual = 1;
+        await LoadNewProjects();
+
+    }
+
+    void ChangeStateVorarlberg()
+    {
+        isrestaustria = false;
+        isinternational = false;
+    }
+    void changeStateRestAustria()
+    {
+        isvorarlberg = false;
+        isinternational = false;
+    }
+    void changeStateInternational()
+    {
+        isvorarlberg = false;
+        isrestaustria = false;
+    } }

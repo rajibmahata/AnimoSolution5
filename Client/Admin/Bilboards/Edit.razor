@@ -1,0 +1,78 @@
+﻿@page "/admin/bilboards/edit/{BilboardId:int}"
+@page "/admin/bilboards/edit/{BilboardId:int}/{BilboardName}"
+@using Model.Shared.Entities
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+@inject NavigationManager nm
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Bilboard Edition</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Edit your record here</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+        </div>
+    </div>
+</div>
+
+
+@if (bilboards == null)
+    {
+      <LoadingAsset />
+    }
+else
+    {
+      <BilboardForm OnValidSubmit="HandleEdit" bilboards="bilboards" />
+    }
+
+
+
+@code {
+
+    [Parameter] public int BilboardId { get; set; }
+    [Parameter] public string BilboardName { get; set; }
+    private Bilboard bilboards;
+
+
+
+
+    protected async override Task OnInitializedAsync()
+    {
+
+        var httpResponse = await repo.Get<Bilboard>($"api/bilboards/{BilboardId}");
+
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            bilboards = httpResponse.Response;
+        }
+
+    }
+
+    private async Task HandleEdit()
+    {
+        var httpResponse = await repo.Put("api/bilboards", bilboards);
+
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            nm.NavigateTo("admin/bilboards");
+        }
+    }
+
+
+}

@@ -1,0 +1,10 @@
+﻿@page "/admin/users/clients/view/{UserId:int}"
+@page "/admin/users/clients/view/{UserId:int}/{Username}"
+
+<h3>Edit Clients</h3>
+
+@code {
+    [Parameter] public int UserId { get; set; }
+    [Parameter] public int Username { get; set; }
+
+}

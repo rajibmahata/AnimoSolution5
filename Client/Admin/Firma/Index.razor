@@ -1,0 +1,136 @@
+﻿@page "/admin/firma"
+
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>List of Firmas</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Firmas are necesary to be applied in the future...</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+            <AuthorizeView Roles="Admin">
+                <Authorized>
+                    <a href="admin/firma/create" class="btn btn-primary">Create Record</a>
+                </Authorized>       
+                <NotAuthorized>
+                    No autorizado
+                </NotAuthorized>
+            </AuthorizeView>
+        </div>
+    </div>
+</div>
+
+@if (firmas == null)
+{
+    <LoadingAsset />
+}
+else
+{
+    <GenericList Listado="firmas">
+        <HayRegistrosCompleto>
+
+            <div class="mr-50 ml-50">
+                <div class="divTable greyGridTable">
+                    <div class="divTableHeading ">
+                        <div class="divTableRow ">
+                            <div class="divTableHead grid10l">Logo</div>
+                            <div class="divTableHead grid20l--">Name</div>
+                            <div class="divTableHead grid20l--">Address</div>
+                            <div class="divTableHead grid20l--">Phone</div>
+                            <div class="divTableHead grid20c--">Contact Email</div>
+                            <div class="divTableHead grid20c--" style="background-color:black;">Actions</div>
+                        </div>
+                    </div>
+                    <div class="divTableBody ">
+                        @foreach (var item in firmas)
+                        {
+                            <div class="divTableRow">
+                                <div class="divTableCell grid10l"><img src="@item.Logo" class="img128" /></div>
+                                <div class="divTableCell grid20l--">@item.Name</div>
+                                <div class="divTableCell grid20l--">@item.Address</div>
+                                <div class="divTableCell grid20l--">@item.Phone</div>
+                                <div class="divTableCell grid20l--">@item.ContactEmail</div>
+                                <div class="divTableCell grid20c--">
+                                    <a href="admin/firma/edit/@item.FirmaId" class="btn btn-success">Edit</a>
+                                    <button @onclick="@(() => DeleteGlobal(item.FirmaId))" class="btn btn-danger">Delete</button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="divTableFoot tableFootStyle">
+                    </div>
+                </div>
+            </div>
+        </HayRegistrosCompleto>
+    </GenericList>
+    <br />
+    <br />
+
+    @if (firmas.Count >= 1)
+    {
+        <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
+    }
+
+}
+
+
+
+@code {
+
+    public List<Firmas> firmas { get; set; }
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await Load();
+    }
+
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Firmas>>($"api/firmas?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            firmas = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+
+    private async Task DeleteGlobal(int FirmaId)
+    {
+        var responseHttp = await repo.Delete($"api/firmas/{FirmaId}");
+        if (responseHttp.Error)
+        {
+            await mostrar.MostrarMensajeError(await responseHttp.GetBody());
+        }
+        else
+        {
+            await Load();
+        }
+
+    }
+
+
+
+}

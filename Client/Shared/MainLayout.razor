@@ -1,0 +1,18 @@
+﻿@inherits LayoutComponentBase
+@using AnimoWeb.Client.Shared.Web
+
+<div class="page">
+    <div class="topbar">
+        <div class="rotating-border"></div>
+        <WebNavMenu />
+
+    </div>
+
+    <div class="main">
+        <div class="grid100l pl-25 pr-25 mt-150">
+            @Body
+        </div>
+        <WebFooter />
+    </div>
+
+</div>

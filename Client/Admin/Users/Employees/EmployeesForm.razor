@@ -1,0 +1,175 @@
+﻿@using Model.Shared.Entities
+@inject IRepository repo
+
+<EditForm Model="userRegister" OnSubmit="OnDataAnnotationsValidated">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label>Full Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="userRegister.FullName" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Username</label>
+        <div>
+            <InputText class="form-control" @bind-Value="userRegister.Username" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Email</label>
+        <div>
+            <InputText class="form-control" @bind-Value="userRegister.Email" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Password</label>
+        <div>
+            <InputPassword class="form-control" @bind-Value="userRegister.Password" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Avatar [Square : Example 500 x 500 px]</label>
+        <div class="imgBorder50">
+            <InputImg Label="Image" ImagenURL="@imagenURL" SelectedImage="SelectedImage" CssClass="img256" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Date of Birth</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@userRegister.Dob" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Register Created Date</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@userRegister.Doc" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Last Login Date</label>
+        <div>
+            <InputDate class="form-control" @bind-Value="@userRegister.Dol" />
+        </div>
+    </div>
+    <hr />
+    <div class="form-group">
+        <label class="">Land</label>
+        <div>
+            <InputSelect id="LandeId" @bind-Value="userRegister.LandeId" class="form-control">
+                <option value="0" selected>Please select...</option>
+                @foreach (var pais in paises)
+                {
+                    <option value="@pais.LandeId.ToString()">@pais.LandeName</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Firma belong</label>
+        <div>
+            <InputSelect id="FirmaId" @bind-Value="userRegister.FirmaId" class="form-control">
+                <option value="0" selected>Please select...</option>
+                @foreach (var firma in firmas)
+                {
+                    <option value="@firma.FirmaId.ToString()">@firma.Name</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="colorRed pbold">Administration Rol [Permissions]</label>
+        <div>
+            <InputSelect id="UserId" @bind-Value="userRegister.RoleId" class="form-control">
+                <option value="0" selected>Please select...</option>
+                @foreach (var rol in roles)
+                {
+                    <option value="@rol.RoleId.ToString()">@rol.RoleName</option>
+                }
+            </InputSelect>
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Job Position</label>
+        <div>
+            <InputText class="form-control" @bind-Value="userRegister.JobPosition" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Job Description</label>
+        <div>
+            <InputText class="form-control" @bind-Value="userRegister.JobPositionDesc" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label>Phone</label>
+        <div>
+            <InputText class="form-control" @bind-Value="userRegister.Phone" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label>Position Order in Web</label>
+        <div>
+            <InputNumber class="form-control" @bind-Value="userRegister.OrderPosition" />
+        </div>
+    </div>
+    <div class="form-group grid25x ">
+        <label>Is Deleted ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@userRegister.isDeleted" />
+        </div>
+    </div>
+    <div class="form-group grid25x ">
+        <label>Is Banned ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@userRegister.isBanned" />
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+
+</EditForm>
+
+@code {
+    //[Parameter] public Users users { get; set; }
+    [Parameter] public VMUserRegister userRegister { get; set; }
+
+
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+    [Parameter] public List<Landes> paises { get; set; }
+    [Parameter] public List<Firmas> firmas { get; set; }
+    [Parameter] public List<Roles> roles { get; set; }
+
+    private string imagenURL;
+
+    protected override void OnInitialized()
+    {
+        if (!string.IsNullOrEmpty(userRegister.UserPoster))
+        {
+            imagenURL = userRegister.UserPoster;
+            userRegister.UserPoster = null;
+        }
+    }
+
+    private void SelectedImage(string imageBase64)
+    {
+        userRegister.UserPoster = imageBase64;
+        imagenURL = null;
+
+    }
+
+    private async Task OnDataAnnotationsValidated()
+    {
+        if (!string.IsNullOrEmpty(userRegister.UserPoster))
+        {
+            imagenURL = null;
+        }
+
+        await OnValidSubmit.InvokeAsync(null);
+    }
+
+
+}

@@ -1,0 +1,30 @@
+﻿@using Model.Shared
+
+<div style="width: 300px; display: inline-block;border: 1px solid #4a4a4a;border-radius: 6px;margin: 10px;background-color: #4a4a4a;" class="mt-50">
+    <div class="hh-40" style="background-color: #4a4a4a;">
+        <div class="mt-5">
+            <a href="@urlProject" class="p13 colorWhite"><p class="p13 pbold colorWhite"><b>@Project.Name</b></p></a>
+        </div>
+    </div>
+    <img src="@Project.Poster" alt="@Project.Name" class="imgResponsive imageFilter" />
+    <p class="p13 pbold colorLightGrey">@Project.KundeName</p>
+    <p class="p11 colorLightGrey">@Project.ShortDesc</p>
+    <hr class="hr3red" />
+    <p class="colorLightGrey">Date<br /><b>@Project.Doc.ToShortDateString()</b></p>
+</div>
+
+@code {
+
+    [Parameter] public EventCallback<Projects> ProjectDelete { get; set; }
+    [Parameter] public EventCallback<Projects> ProjectEdit { get; set; }
+    [Parameter] public EventCallback<Projects> ProjectView { get; set; }
+
+    [Parameter] public Projects Project { get; set; }
+
+    private string urlProject = string.Empty;
+
+    protected override void OnInitialized()
+    {
+        urlProject = $"admin/projects/view/{Project?.ProjectId}/{Project?.Name?.Replace(" ","-")}";
+    }
+}

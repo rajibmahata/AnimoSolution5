@@ -1,0 +1,221 @@
+﻿@page "/admin/news/addimages/{NewsId:int}"
+@page "/admin/news/addimages/{NewsId:int}/{Title}"
+
+@inject NavigationManager nm
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+@using Model.Shared
+
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5 class="colorBlue">News Images Set</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Lets add some Images to our existing news</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+        </div>
+    </div>
+</div>
+
+
+
+@if (news == null) 
+{
+    <text>Fatal error in News...</text>
+    <LoadingAsset />
+}
+else
+{
+<div>
+    <p class="p14 pbold">News: @news.Title</p><span class="p12">Actual Images count: @cantidad</span><br />
+    @if (cantidad < 1)
+    {
+        <p class="colorRed p12">Post new has no images yet !</p>
+    }
+    else
+    {
+        <div class="gridderRow">
+            <br />
+            <h6>This are the current images</h6><br />
+            @foreach (var item in newsImagesList) 
+            {
+                <div class="grid20c">
+                    <img src="@item.Graph.GraphUrl" class="img256" /><br />
+                    <span class="p12 ">@item.Graph.GraphName</span><br />
+                    <span class="p11 ">Order: @item.Graph.Order</span><br />
+                    <hr class="hr1" />
+                    <button type="button" @onclick="@(() => DeleteRecord(item.GraphId))" class="btn btn-outline-primary">Delete</button>  
+                </div>
+            }
+
+        </div>
+
+    }
+    <hr />
+    <div class="mt-25">
+        <h6>Adding new Images !</h6>
+        <EditForm Model="model" OnValidSubmit="HandleCreate">
+            <DataAnnotationsValidator />
+            <div class="form-group">
+                <div>
+                    <InputImg Label="Select..." ImagenURL="@imageTemp" SelectedImage="SelectedImage" CssClass="img1280" />
+                </div>
+                <div>
+                    <span>Name</span>
+                    <InputText class="form-control " style="width: 150px;" @bind-Value="@imageName" />
+                </div>
+                <div style="width: 150px;">
+                    <span>Position relevance</span>
+                    <InputNumber class="form-control" @bind-Value="@order" />
+                </div>
+
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create</button>
+        </EditForm>
+    </div>
+</div>
+
+}
+
+
+
+@code {
+    [Parameter] public int NewsId { get; set; }
+    [Parameter] public string Title { get; set; }
+
+    public News news = new News();
+    public ViewNewsImagesDTO model = new ViewNewsImagesDTO();
+    public NewsGraphs newsGraphs = new NewsGraphs();
+    public List<NewsGraphs> newsImagesList = new List<NewsGraphs>();
+
+    public Graphs image = new Graphs();
+    public int cantidad = 0;
+    public string imageName;
+    public int order;
+    private string imageTemp;
+
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        var httpResponse = await repo.Get<ViewNewsImagesDTO>($"api/newsgraphs/{NewsId}");
+
+        imageTemp = null;
+        image.GraphUrl = null;
+
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            newsImagesList = httpResponse.Response.NewsGraphs;
+            news = httpResponse.Response.News;
+
+            if (newsImagesList == null)
+            {
+                cantidad = 0;
+            }
+            else
+            {
+                newsImagesList = httpResponse.Response.NewsGraphs;
+                cantidad = newsImagesList.Count;
+            }
+        }
+
+    }
+
+    private void SelectedImage(string imageBase64)
+    {
+        imageTemp = imageBase64;
+        image.GraphUrl = null;
+    }
+
+
+    private async Task HandleCreate()
+    {
+
+        image.GraphName = imageName;
+        image.GraphUrl = imageTemp;
+        image.Order = order;
+
+        //Primero posteamos la imagen
+        var httpResponse = await repo.Post<Graphs,int>("api/graphs", image);
+        if (httpResponse.Error)
+        {
+            var body = await httpResponse.GetBody();
+            await mostrar.MostrarMensajeError(body);
+
+        }
+        else
+        {
+            //Segundo posteamos los id en la tabla de normalizacion
+            newsGraphs.NewsId = NewsId;
+            newsGraphs.GraphId = httpResponse.Response;
+
+            var httpRes2 = await repo.Post($"api/newsgraphs", newsGraphs);
+            if (httpRes2.Error)
+            {
+                var body = await httpResponse.GetBody();
+                await mostrar.MostrarMensajeError(body);
+            }
+            else
+            {
+                StateHasChanged();
+                image.GraphUrl = null;
+                imageTemp = null;
+                imageName = "";
+                order = 0;
+
+                nm.NavigateTo($"admin/news");
+            }
+
+        }
+    }
+
+    private async Task DeleteRecord(int GraphId) 
+    {
+        var httpResponse = await repo.Delete($"api/graphs/{GraphId}");
+
+        if (httpResponse.Error)
+        {
+            var body = await httpResponse.GetBody();
+            await mostrar.MostrarMensajeError(body);
+        }
+        else
+        {
+            // exito
+            await DeleteNewsImagesReference(GraphId); 
+            StateHasChanged();
+            await OnInitializedAsync();
+        }
+    }
+
+    private async Task DeleteNewsImagesReference(int GraphId) 
+    {
+        var httpResponse = await repo.Delete($"api/newsgraphs/{GraphId}");
+
+        if (httpResponse.Error)
+        {
+            var body = await httpResponse.GetBody();
+            await mostrar.MostrarMensajeError(body);
+        }
+        else
+        {
+            // exito 
+
+            //await OnInitializedAsync();
+        }
+    }
+
+
+}

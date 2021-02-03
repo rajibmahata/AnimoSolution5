@@ -1,0 +1,127 @@
+﻿@page "/admin/logos"
+
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Logos for the website</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">You can easily change the LOGO in the website according to the ocasion</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+            <a href="admin/logos/create" class="btn btn-primary">Create Record</a>
+        </div>
+    </div>
+</div>
+
+@if (logos == null)
+{
+    <LoadingAsset />
+}
+else
+{
+    <GenericList Listado="logos">
+        <HayRegistrosCompleto>
+
+            <div class="mr-50 ml-50">
+                <div class="divTable greyGridTable">
+                    <div class="divTableHeading ">
+                        <div class="divTableRow ">
+                            <div class="divTableHead grid10l">Logo Name</div>
+                            <div class="divTableHead grid20l--">Image</div>
+                            <div class="divTableHead grid20l--">is Active Default</div>
+                    
+                            <div class="divTableHead grid20c--" style="background-color:black;">Actions</div>
+                        </div>
+                    </div>
+                    <div class="divTableBody ">
+                        @foreach (var item in logos)
+                        {
+                            <div class="divTableRow">
+                                <div class="divTableCell grid10l"><img src="@item.LogoFile" class="img128" /></div>
+                                <div class="divTableCell grid20l--">@item.LogoName</div>
+                                <div class="divTableCell grid20l--">@item.isDefaultActive</div>
+              
+                                <div class="divTableCell grid20c--">
+                                    <a href="admin/logos/edit/@item.LogoId" class="btn btn-success">Edit</a>
+                                    <button @onclick="@(() => DeleteGlobal(item.LogoId))" class="btn btn-danger">Delete</button>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                    <div class="divTableFoot tableFootStyle">
+                    </div>
+                </div>
+            </div>
+        </HayRegistrosCompleto>
+    </GenericList>
+    <br />
+    <br />
+
+    @if (logos.Count >= 1)
+    {
+        <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
+    }
+
+}
+
+
+
+@code {
+
+    public List<Logos> logos { get; set; } 
+    private int paginaActual = 1;
+    private int paginasTotales;
+
+
+    private async Task paginaSeleccionada(int pagina)
+    {
+        paginaActual = pagina;
+        await Load(pagina);
+    }
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await Load();
+    }
+
+
+    private async Task Load(int pagina = 1)
+    {
+        var responseHttp = await repo.Get<List<Logos>>($"api/logos?pagina={pagina}");
+
+        if (!responseHttp.Error)
+        {
+            logos = responseHttp.Response;
+            var conteo = responseHttp.HttpResponseMessage.Headers.GetValues("conteo").FirstOrDefault();
+            paginasTotales = int.Parse(responseHttp.HttpResponseMessage.Headers.GetValues("totalPaginas").FirstOrDefault());
+        }
+
+    }
+
+    private async Task DeleteGlobal(int LogoId)
+    {
+        var responseHttp = await repo.Delete($"api/logos/{LogoId}");  
+        if (responseHttp.Error)
+        {
+            await mostrar.MostrarMensajeError(await responseHttp.GetBody());
+        }
+        else
+        {
+            await Load();
+        }
+
+    }
+
+
+
+}

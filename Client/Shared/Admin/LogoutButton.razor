@@ -1,0 +1,23 @@
+﻿@inject Blazored.LocalStorage.ILocalStorageService LocalStorage
+@inject AuthenticationStateProvider AuthStateProvider
+@inject NavigationManager nm
+
+    <a class="btn btn-outline-primary" @onclick="Logout">
+        <span class="oi oi-account-logout" aria-hidden="true"></span>Logout
+    </a>
+
+
+
+
+
+
+@code {
+
+    private async void Logout()
+    {
+        await LocalStorage.RemoveItemAsync("authToken");
+        await AuthStateProvider.GetAuthenticationStateAsync();
+        nm.NavigateTo("/");
+    }
+
+}

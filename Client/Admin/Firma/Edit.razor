@@ -1,0 +1,91 @@
+﻿@page "/admin/firma/edit/{FirmaId:int}"
+@page "/admin/firma/edit/{FirmaId:int}/{Name}"
+@using Model.Shared.Entities
+@inject IRepository repo
+@inject IMostrarMensajes mostrar
+@inject NavigationManager nm
+@attribute [Authorize(Roles="Admin")]
+
+<div id="headerSection">
+    <div class="grid50l-- vtop">
+        <h5>Firma Edition</h5>
+        <hr class="hr4" />
+        <div class="hh-40 vtop">
+            <p class="p12 colorDarkGrey">Edit your record here</p>
+        </div>
+    </div>
+
+    <div class="grid50r-- vtop">
+        <h5>Options</h5>
+        <hr class="hr4inverted" />
+        <div class="hh-40 vtop">
+            <GoBack></GoBack>
+        </div>
+    </div>
+</div>
+
+
+@if (paises.Count < 1)
+    {
+      <LoadingAsset />
+    }
+else
+    {
+      <FirmasForm firmas="firmas" OnValidSubmit="HandleEdit" paises="paises" />
+    }
+
+
+
+@code {
+
+    [Parameter] public int FirmaId { get; set; }
+    [Parameter] public string Name { get; set; }
+    private Firmas firmas = new Firmas();
+    public List<Landes> paises = new List<Landes>();
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        await LoadCountries();
+
+        var httpResponse = await repo.Get<Firmas>($"api/firmas/{FirmaId}");
+
+        if (httpResponse.Error)
+        {
+            if (httpResponse.HttpResponseMessage.StatusCode == System.Net.HttpStatusCode.NotFound)
+            {
+                nm.NavigateTo("admin");
+            }
+            else
+            {
+                await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+            }
+        }
+        else
+        {
+            firmas = httpResponse.Response;
+        }
+
+    }
+
+    private async Task HandleEdit()
+    {
+        var httpResponse = await repo.Put("api/firmas", firmas);
+
+        if (httpResponse.Error)
+        {
+            await mostrar.MostrarMensajeError(await httpResponse.GetBody());
+        }
+        else
+        {
+            nm.NavigateTo("admin/firma");
+        }
+    }
+
+    private async Task LoadCountries()
+    {
+        var httpResponse = await repo.Get<List<Landes>>("api/landes");
+        paises = httpResponse.Response;
+    }
+
+}

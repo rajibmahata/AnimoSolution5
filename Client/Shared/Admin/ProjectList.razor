@@ -1,0 +1,39 @@
+﻿@inject IJSRuntime js
+
+
+<div class="grid100c">
+    <GenericList Listado="Projects">
+        <HayRegistros Context="Projects">
+            <ProjectSingle Project="Projects" ProjectDelete="ProjectDelete" ProjectEdit="ProjectEdit" ProjectView="ProjectEdit" />
+        </HayRegistros>
+    </GenericList>
+</div>
+
+
+@code {
+
+    [Parameter] public List<Projects> Projects { get; set; }
+
+    Projects projectToDelete;
+
+
+    async Task ProjectDelete(Projects project) 
+    {
+        bool confirmed = await js.InvokeAsync<bool>("confirm", "Are you sure?");
+        if (confirmed)
+        {
+            Projects.Remove(project);
+            Console.WriteLine($"Se ha eliminado la pelicula {project.Name}");
+        }
+    }
+
+    void ProjectEdit() 
+    {
+
+    }
+
+    void ProjectView()
+    {
+
+    }
+}

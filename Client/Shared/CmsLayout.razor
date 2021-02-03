@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+@using AnimoWeb.Client.Shared.Admin
+
+<div class="page">
+
+    <AuthorizeView>
+        <Authorized>
+            <div class="sidebar">
+                <AdminNavMenu />
+            </div>
+            <div class="main">
+                <div class="grid100r pl-25 pr-25">
+                    <span class="p12 colorDarkGrey pr-10">@context.User.Identity.Name </span><LogoutButton />       
+                </div>
+                <div class="grid100l pl-25 pr-25">              
+                    @Body
+                </div>
+                <div class="mt-100">
+                    <Admin_Footer />
+                </div>
+            </div>
+        </Authorized>
+            <NotAuthorized>
+                <div class="grid100c">
+                    <AnimoWeb.Client.Admin.Login />
+                </div>
+            </NotAuthorized>
+
+    </AuthorizeView>
+
+</div>

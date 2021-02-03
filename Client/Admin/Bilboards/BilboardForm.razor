@@ -1,0 +1,66 @@
+﻿@using Model.Shared.Entities
+@inject IRepository repo
+
+<EditForm Model="bilboards" OnValidSubmit="OnDataAnnotationsValidated">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label>Anzeige Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="bilboards.BilboardName" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <span class="p12">[R: 1280 x 500 or +]</span>
+        <InputImg Label="Image" ImagenURL="@imagenURL" SelectedImage="SelectedImage" CssClass="img256" />
+    </div>
+
+    <div class="form-group grid25x ">
+        <label>Is Default Published ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@bilboards.isDefaultActive" />
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+
+</EditForm>
+
+@code {
+    [Parameter] public Bilboard bilboards { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+
+    private string imagenURL;
+
+    protected override void OnInitialized()
+    {
+        if (!string.IsNullOrEmpty(bilboards.BilboardFile))
+        {
+
+            imagenURL = bilboards.BilboardFile;
+            bilboards.BilboardFile = null;
+        }
+    }
+
+    private void SelectedImage(string imageBase64)
+    {
+        bilboards.BilboardFile = imageBase64;
+        imagenURL = null;
+
+    }
+
+    private async Task OnDataAnnotationsValidated()
+    {
+
+        if (!string.IsNullOrEmpty(bilboards.BilboardFile))
+        {
+            imagenURL = null;
+        }
+
+        await OnValidSubmit.InvokeAsync(null);
+    }
+
+
+}

@@ -1,0 +1,57 @@
+﻿<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3 fixed-top">
+    <div class="container wrapper">
+        <a class="nav-link text-dark" href="" Match="NavLinkMatch.prefix"><img src="images/identity/isologo2.png" /></a><br /><br />
+        <span class="p10 colorLightGrey pr-50">Internal content manager</span>
+        
+        <button class="navbar-toggler" @onclick="ToggleNavMenu" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="@NavMenuCssClass navbar-collapse d-sm-inline-flex flex-sm-row-reverse" @onclick="CollapseNavMenu">
+            <ul class="navbar-nav flex-grow-1">
+
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/config"<span class="icon-bolt fa-0x colorGreenish">3</span>Config</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/firma">Firmas Admin</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/users/employees">Employee Admin</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/news"><span class="icon-bolt fa-0x colorGreenish">2</span>News</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/projects">Projects Manage</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/downloads">Downloads</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/logos">Logos</a>
+                </li>
+                <li class="nav-item different initial">
+                    <a class="nav-link text-dark" href="admin/tecnos">Tecnos</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+@code {
+    bool collapseNavMenu = true;
+
+    string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+
+    void CollapseNavMenu()
+    {
+        collapseNavMenu = true;
+    }
+}

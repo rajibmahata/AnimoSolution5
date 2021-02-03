@@ -1,0 +1,71 @@
+﻿@using Model.Shared.Entities
+@inject IRepository repo
+
+<EditForm Model="social" OnValidSubmit="OnDataAnnotationsValidated">
+    <DataAnnotationsValidator />
+
+    <div class="form-group">
+        <label>Social Name</label>
+        <div>
+            <InputText class="form-control" @bind-Value="social.Name" />
+        </div>
+    </div>
+    <div class="form-group">
+        <InputImg Label="Image" ImagenURL="@imagenURL" SelectedImage="SelectedImage" CssClass="img128" />
+    </div>
+
+    <div class="form-group">
+        <label>Social Link To</label>
+        <div>
+            <InputText class="form-control" @bind-Value="social.TargetUrl" />
+        </div>
+    </div>
+
+    <div class="form-group grid25x ">
+        <label>Is Default published ?</label>
+        <div>
+            <InputCheckbox class="form-check" @bind-Value="@social.isActive" />
+        </div>
+    </div>
+
+    <button class="btn btn-primary" type="submit">Save Changes</button>
+
+</EditForm>
+
+@code {
+    [Parameter] public Social social { get; set; }
+    [Parameter] public EventCallback OnValidSubmit { get; set; }
+
+
+    private string imagenURL;
+
+    protected override void OnInitialized()
+    {
+        if (!string.IsNullOrEmpty(social.SocialIconUrl))
+        {
+
+            imagenURL = social.SocialIconUrl;
+            social.SocialIconUrl = null;
+        }
+    }
+
+    private void SelectedImage(string imageBase64)
+    {
+        social.SocialIconUrl = imageBase64;
+        imagenURL = null;
+
+    }
+
+    private async Task OnDataAnnotationsValidated()
+    {
+
+        if (!string.IsNullOrEmpty(social.SocialIconUrl))
+        {
+            imagenURL = null;
+        }
+
+        await OnValidSubmit.InvokeAsync(null);
+    }
+
+
+}
