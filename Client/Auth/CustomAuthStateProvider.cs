@@ -72,5 +72,13 @@ namespace AnimoWeb.Client.Auth
 
             return claims;
         }
+
+        public void MarkUserAsAuthenticated(string token)
+        {
+            var authenticatedUser = new ClaimsPrincipal(new ClaimsIdentity(ParseClaimsFromJwt(token), "jwt"));
+            var authState = Task.FromResult(new AuthenticationState(authenticatedUser));
+
+            NotifyAuthenticationStateChanged(authState);
+        }
     }
 }

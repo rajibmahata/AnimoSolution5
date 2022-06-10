@@ -1,5 +1,5 @@
 ﻿@page "/admin/firma"
-
+@attribute [Authorize(Roles = "Admin")]
 @inject IRepository repo
 @inject IMostrarMensajes mostrar
 
@@ -20,7 +20,7 @@
             <AuthorizeView Roles="Admin">
                 <Authorized>
                     <a href="admin/firma/create" class="btn btn-primary">Create Record</a>
-                </Authorized>       
+                </Authorized>
                 <NotAuthorized>
                     No autorizado
                 </NotAuthorized>

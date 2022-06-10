@@ -49,7 +49,7 @@
 </div>
 
 
-<AnzeigeMsg onCloseAnzeige="CloseAnzeige" @ref="_anzeigeMsg" animoBilboard="@animoBilboard"  />
+<AnzeigeMsg onCloseAnzeige="CloseAnzeige" @ref="_anzeigeMsg" animoBilboard="@animoBilboard" />
 
 
 <CookieMsg onCancel="CloseCookie" onConfirm="CloseCookie" @ref="_cookies" />
@@ -62,6 +62,21 @@
 <div id="particles-js" class="pJS_canvas_class"></div>
 <div id="topThree"></div>
 
+@*<div><canvas id="c" width="1920" height="355"></canvas></div>*@
+<div class="hidden-button-bg" id="hidden-button-bg">
+    <div class="hidden-button" id="first">
+        <h2>First Item</h2>
+        <button id="first-button">More Info</button>
+    </div>
+    <div class="hidden-button" id="second">
+        <h2>Second Item</h2>
+        <button id="second-button">More Info</button>
+    </div>
+    <div class="hidden-button" id="third">
+        <h2>Third Item</h2>
+        <button id="third-button">More Info</button>
+    </div>
+</div>
 <div class="mt-500"></div>
 
 
@@ -107,6 +122,7 @@
 
     protected override async Task OnInitializedAsync()
     {
+
         var httpRequest = await repo.Get<Bilboard>("api/anzeige");
         if (httpRequest.Response == null)
         {
@@ -135,10 +151,12 @@
 
         if (firstRender)
         {
-            await jsRuntime.InvokeVoidAsync("particlesJS");
+
+
             moduleUtils = await jsRuntime.InvokeAsync<IJSObjectReference>("import", "./3d/Main.js"); // Modulo
 
             await moduleUtils.InvokeVoidAsync("AnimoLoader");
+            // await jsRuntime.InvokeVoidAsync("ThreeJSFunctions.load");
         }
         await Open();
     }

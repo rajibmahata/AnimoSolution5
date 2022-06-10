@@ -1,4 +1,5 @@
 ﻿@page "/admin/tecnos"
+@attribute [Authorize(Roles = "Admin")]
 @using Model.Shared
 @inject IRepository repo
 @inject IMostrarMensajes mostrar
@@ -57,7 +58,8 @@ else
             </div>
         </HayRegistrosCompleto>
     </GenericList>
-    <br /><br />
+    <br />
+    <br />
     <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
 }
 

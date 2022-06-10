@@ -1,6 +1,6 @@
 ﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="H:\Upwork\New folder\AnimoSolution5-0\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="H:\Upwork\New folder\AnimoSolution5-0\Client\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="/" Path="H:\Upwork\New folder\AnimoSolution5-0\Client\wwwroot\" />
+  <ContentRoot BasePath="/" Path="H:\Upwork\New folder\AnimoSolution5-0\AnimoSolution5\Client\bin\Debug\net5.0\wwwroot\" />
+  <ContentRoot BasePath="/" Path="H:\Upwork\New folder\AnimoSolution5-0\AnimoSolution5\Client\obj\Debug\net5.0\scopedcss\bundle\" />
+  <ContentRoot BasePath="/" Path="H:\Upwork\New folder\AnimoSolution5-0\AnimoSolution5\Client\wwwroot\" />
   <ContentRoot BasePath="_content/Blazored.Toast" Path="C:\Users\rajib\.nuget\packages\blazored.toast\3.1.2\build\..\staticwebassets\" />
 </StaticWebAssets>

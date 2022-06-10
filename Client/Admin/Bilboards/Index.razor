@@ -1,5 +1,5 @@
 ﻿@page "/admin/bilboards"
-
+@attribute [Authorize(Roles = "Admin")]
 @inject IRepository repo
 @inject IMostrarMensajes mostrar
 @using Model.Shared.Entities
@@ -29,7 +29,7 @@
 }
 else
 {
-    <GenericList Listado="bilboards"> 
+    <GenericList Listado="bilboards">
         <HayRegistrosCompleto>
 
             <div class="mr-50 ml-50">
@@ -39,7 +39,7 @@ else
                             <div class="divTableHead grid10l">Anzeige Name</div>
                             <div class="divTableHead grid20l--">Image</div>
                             <div class="divTableHead grid20l--">is Active Default</div>
-                    
+
                             <div class="divTableHead grid20c--" style="background-color:black;">Actions</div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ else
                                 <div class="divTableCell grid10l"><img src="@item.BilboardFile" class="img128" /></div>
                                 <div class="divTableCell grid20l--">@item.BilboardName</div>
                                 <div class="divTableCell grid20l--">@item.isDefaultActive</div>
-              
+
                                 <div class="divTableCell grid20c--">
                                     <a href="admin/bilboards/edit/@item.BilboardId" class="btn btn-success">Edit</a>
                                     <button @onclick="@(() => Delete(item.BilboardId))" class="btn btn-danger">Delete</button>
@@ -109,9 +109,9 @@ else
 
     }
 
-    private async Task Delete(int BilboardId) 
+    private async Task Delete(int BilboardId)
     {
-        var responseHttp = await repo.Delete($"api/bilboards/{BilboardId}"); 
+        var responseHttp = await repo.Delete($"api/bilboards/{BilboardId}");
         if (responseHttp.Error)
         {
             await mostrar.MostrarMensajeError(await responseHttp.GetBody());

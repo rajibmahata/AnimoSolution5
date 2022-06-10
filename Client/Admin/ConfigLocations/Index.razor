@@ -1,4 +1,5 @@
 ﻿@page "/admin/configlocations"
+@attribute [Authorize(Roles = "Admin")]
 @using Model.Shared.Entities
 @inject IRepository repo
 @inject IMostrarMensajes mostrar
@@ -45,16 +46,16 @@ else
                     <div class="divTableBody ">
                         @foreach (var item in globalLocations)
                         {
-                        <div class="divTableRow">
-                            <div class="divTableCell grid20l--">@item.LocationReference</div>
-                            <div class="divTableCell grid20l--">@item.StreetFull</div>
-                            <div class="divTableCell grid20l--">@item.Town</div>
-                            <div class="divTableCell grid20l--">@item.Phone1</div>
-                            <div class="divTableCell grid20c--">
-                                <a href="admin/configlocations/edit/@item.Id" class="btn btn-success">Edit</a>
-                                <button @onclick="@(() => DeleteGlobal(item.Id))" class="btn btn-danger">Delete</button>
+                            <div class="divTableRow">
+                                <div class="divTableCell grid20l--">@item.LocationReference</div>
+                                <div class="divTableCell grid20l--">@item.StreetFull</div>
+                                <div class="divTableCell grid20l--">@item.Town</div>
+                                <div class="divTableCell grid20l--">@item.Phone1</div>
+                                <div class="divTableCell grid20c--">
+                                    <a href="admin/configlocations/edit/@item.Id" class="btn btn-success">Edit</a>
+                                    <button @onclick="@(() => DeleteGlobal(item.Id))" class="btn btn-danger">Delete</button>
+                                </div>
                             </div>
-                        </div>
                         }
                     </div>
                     <div class="divTableFoot tableFootStyle">
@@ -63,13 +64,14 @@ else
             </div>
         </HayRegistrosCompleto>
     </GenericList>
-    <br /><br />
+    <br />
+    <br />
 
-    @if(globalLocations.Count >= 1)
+    @if (globalLocations.Count >= 1)
     {
         <Paginacion PaginaActual="paginaActual" PaginaSeleccionada="paginaSeleccionada" PaginasTotales="paginasTotales"></Paginacion>
     }
-    
+
 }
 
 
@@ -109,7 +111,7 @@ else
 
     }
 
-    private async Task DeleteGlobal(int Id)  
+    private async Task DeleteGlobal(int Id)
     {
         var responseHttp = await repo.Delete($"api/globallocations/{Id}");
         if (responseHttp.Error)

@@ -30,6 +30,12 @@
 
 
 
+  <ItemGroup>
+    <Folder Include="wwwroot\3d\models\textures\" />
+  </ItemGroup>
+
+
+
   <ProjectExtensions><VisualStudio><UserProperties wwwroot_4v3d_3app_3data_4template_1json__JsonSchema="https://bitbucket.org/finproducts/hayson/raw/master/hayson-json-schema.json" /></VisualStudio></ProjectExtensions>
 
 </Project>

@@ -1,5 +1,5 @@
 ﻿@page "/admin/social"
-
+@attribute [Authorize(Roles = "Admin")]
 @inject IRepository repo
 @inject IMostrarMensajes mostrar
 
@@ -46,17 +46,17 @@ else
                     <div class="divTableBody ">
                         @foreach (var item in social)
                         {
-                        <div class="divTableRow">
-                            <div class="divTableCell grid10l"><img src="@item.SocialIconUrl" class="img128" /></div>
-                            <div class="divTableCell grid20l--">@item.Name</div>
-                            <div class="divTableCell grid20l--">@item.TargetUrl</div>
-                            <div class="divTableCell grid20l--">@item.isActive</div>
+                            <div class="divTableRow">
+                                <div class="divTableCell grid10l"><img src="@item.SocialIconUrl" class="img128" /></div>
+                                <div class="divTableCell grid20l--">@item.Name</div>
+                                <div class="divTableCell grid20l--">@item.TargetUrl</div>
+                                <div class="divTableCell grid20l--">@item.isActive</div>
 
-                            <div class="divTableCell grid20c--">
-                                <a href="admin/social/edit/@item.SocialId" class="btn btn-success">Edit</a>
-                                <button @onclick="@(() => DeleteGlobal(item.SocialId))" class="btn btn-danger">Delete</button>
+                                <div class="divTableCell grid20c--">
+                                    <a href="admin/social/edit/@item.SocialId" class="btn btn-success">Edit</a>
+                                    <button @onclick="@(() => DeleteGlobal(item.SocialId))" class="btn btn-danger">Delete</button>
+                                </div>
                             </div>
-                        </div>
                         }
                     </div>
                     <div class="divTableFoot tableFootStyle">
@@ -79,7 +79,7 @@ else
 
 @code {
 
-    public List<Social> social { get; set; } 
+    public List<Social> social { get; set; }
     private int paginaActual = 1;
     private int paginasTotales;
 
@@ -112,7 +112,7 @@ else
 
     private async Task DeleteGlobal(int SocialId)
     {
-        var responseHttp = await repo.Delete($"api/socials/{SocialId}");  
+        var responseHttp = await repo.Delete($"api/socials/{SocialId}");
         if (responseHttp.Error)
         {
             await mostrar.MostrarMensajeError(await responseHttp.GetBody());

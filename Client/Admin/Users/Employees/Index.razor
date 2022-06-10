@@ -1,5 +1,5 @@
 ﻿@page "/admin/users/employees"
-
+@attribute [Authorize(Roles = "Admin")]
 @inject IRepository repo
 @inject IMostrarMensajes mostrar
 
@@ -15,7 +15,7 @@
         <h5>Options</h5>
         <hr class="hr4inverted" />
         <div class="hh-40 vtop">
-            <GoBack></GoBack>  
+            <GoBack></GoBack>
             <AuthorizeView Roles="Admin">
                 <Authorized>
                     <a href="admin/users/employees/create" class="btn btn-primary">Create Record</a>
@@ -53,20 +53,20 @@ else
                     <div class="divTableBody ">
                         @foreach (var item in users)
                         {
-                        <div class="divTableRow">
-                            <div class="divTableCell grid10l"><img src="@item.UserPoster" class="img64" /></div>
-                            <div class="divTableCell grid20l--">@item.FullName</div>
-                            <div class="divTableCell grid20l--">@item.Email</div>
-                            <div class="divTableCell grid20l--">@firmas.Where(x => x.FirmaId == item.FirmaId).Select(x => x.Name).FirstOrDefault()</div>
-                            <div class="divTableCell grid20l--">@item.JobPosition</div>
-                            <div class="divTableCell grid20l--">@item.OrderPosition</div>
-                            <div class="divTableCell grid20c--">
+                            <div class="divTableRow">
+                                <div class="divTableCell grid10l"><img src="@item.UserPoster" class="img64" /></div>
+                                <div class="divTableCell grid20l--">@item.FullName</div>
+                                <div class="divTableCell grid20l--">@item.Email</div>
+                                <div class="divTableCell grid20l--">@firmas.Where(x => x.FirmaId == item.FirmaId).Select(x => x.Name).FirstOrDefault()</div>
+                                <div class="divTableCell grid20l--">@item.JobPosition</div>
+                                <div class="divTableCell grid20l--">@item.OrderPosition</div>
+                                <div class="divTableCell grid20c--">
 
-                                <a href="admin/users/employees/edit/@item.UserId" class="btn btn-success">Edit</a>
-                                <button @onclick="@(() => DeleteGlobal(item.UserId))" class="btn btn-danger">Delete</button>
+                                    <a href="admin/users/employees/edit/@item.UserId" class="btn btn-success">Edit</a>
+                                    <button @onclick="@(() => DeleteGlobal(item.UserId))" class="btn btn-danger">Delete</button>
 
+                                </div>
                             </div>
-                        </div>
                         }
                     </div>
                     <div class="divTableFoot tableFootStyle">

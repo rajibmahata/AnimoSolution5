@@ -201,12 +201,11 @@
       "netstandard.dll": "sha256-2ba2qAAtNUX9Qh5PFXhTMtcD\/Nra\/wyG197\/wrnxElI=",
       "System.Private.CoreLib.dll": "sha256-4wsl1v32v74UB0CTQ6+AdUTdM+9C1VraomgeCjb4Wug=",
       "Model.Shared.dll": "sha256-t9kONzurdp5b4Dl7PpJn7kmW545QEnVW2vObtd3WdSg=",
-      "AnimoWeb.Client.dll": "sha256-D8ujZE4zhd8Yw9XfTa\/cMNu7KhFgCT69a0Glet5\/vlg="
+      "AnimoWeb.Client.dll": "sha256-GEmuxIBZIL+zrcNP74HOpoZssqAAq7azeljdB\/5F\/TA="
     },
     "lazyAssembly": null,
     "pdb": {
-      "Model.Shared.pdb": "sha256-SaP\/g5y3qCP4Pxm8Y3bSewij5syim4FV3zcwqYDKArM=",
-      "AnimoWeb.Client.pdb": "sha256-72M7FMDI3wzQEPc+P+JCQVLMcLP06jSIi2Ppdytgarw="
+      "AnimoWeb.Client.pdb": "sha256-pZhmFkekW\/wGkdHfCrpil9Q\/9YsS2nSrI8kq2CQmNkQ="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-nXByiCO4+RYyh+A88TSSZDwAJMF7M7Up\/h6dfAA19C8=",

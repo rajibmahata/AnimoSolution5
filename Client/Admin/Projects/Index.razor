@@ -1,4 +1,5 @@
 ﻿@page "/admin/projects"
+@attribute [Authorize(Roles = "Admin")]
 @inject NavigationManager nm
 @inject IRepository repo
 @inject IMostrarMensajes mostrar
@@ -42,26 +43,26 @@
                     <div class="divTableBody ">
                         @foreach (var item in projects)
                         {
-                        <div class="divTableRow">
-                            <div class="divTableCell grid20l--">@item.Doc.ToShortDateString()</div>
-                            <div class="divTableCell grid20l--">@item.Name</div>
-                            <div class="divTableCell grid20l--">@item.KundeName</div>
-                            <div class="divTableCell grid20l--"><img src="@item.Poster" class="img128 imageFilter"/> </div>
+                            <div class="divTableRow">
+                                <div class="divTableCell grid20l--">@item.Doc.ToShortDateString()</div>
+                                <div class="divTableCell grid20l--">@item.Name</div>
+                                <div class="divTableCell grid20l--">@item.KundeName</div>
+                                <div class="divTableCell grid20l--"><img src="@item.Poster" class="img128 imageFilter" /> </div>
 
-                            <div class="divTableCell grid10c">
-                                <a href="admin/projects/edit/@item.ProjectId" class="btn btn-success">Edit General</a>
-                                <a href="admin/projects/addimages/@item.ProjectId/@item.Name" class="btn btn-success">Manage Images</a>
-                                <AuthorizeView Roles="Admin">
-                                    <Authorized>
-                                        <button type="button" @onclick="@(() => DeleteRecord(item.ProjectId))" class="btn btn-outline-primary">Delete</button>
-                                    </Authorized>
-                                    <NotAuthorized>
-                                        <NotEnough/>
-                                    </NotAuthorized>
-                                </AuthorizeView>
+                                <div class="divTableCell grid10c">
+                                    <a href="admin/projects/edit/@item.ProjectId" class="btn btn-success">Edit General</a>
+                                    <a href="admin/projects/addimages/@item.ProjectId/@item.Name" class="btn btn-success">Manage Images</a>
+                                    <AuthorizeView Roles="Admin">
+                                        <Authorized>
+                                            <button type="button" @onclick="@(() => DeleteRecord(item.ProjectId))" class="btn btn-outline-primary">Delete</button>
+                                        </Authorized>
+                                        <NotAuthorized>
+                                            <NotEnough />
+                                        </NotAuthorized>
+                                    </AuthorizeView>
 
+                                </div>
                             </div>
-                        </div>
                         }
                     </div>
                     <div class="divTableFoot tableFootStyle">
@@ -164,7 +165,7 @@
 
     //private async Task DeleteProjectTecnosReference(int ProjectId)
     //{
-    //    var httpResponse = await repo.Delete($"api/projecttecnos/{ProjectId}"); 
+    //    var httpResponse = await repo.Delete($"api/projecttecnos/{ProjectId}");
 
     //    if (httpResponse.Error)
     //    {

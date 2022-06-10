@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "kxBqBKIKpNMV/DvWk4t8r5caj7Sz1R6lCftmV4KF54jMPwhPqA+WTwgDi9ugK2KR6+RLEE5eFyZVS/2VVWdTUg==",
+  "dgSpecHash": "87qZTDAYyzeUDZ73dmwFNm0E+K/w7oz29dYd0i+g6m0ka3qqY1OFKhQNgaATAExrcdUbbKMm0oO4JfioKusl+g==",
   "success": true,
   "projectFilePath": "H:\\Upwork\\New folder\\AnimoSolution5-0\\AnimoSolution5\\Client\\AnimoWeb.Client.csproj",
   "expectedPackageFiles": [
@@ -36,7 +36,7 @@
     "C:\\Users\\rajib\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\rajib\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
     "C:\\Users\\rajib\\.nuget\\packages\\system.net.http.json\\5.0.0\\system.net.http.json.5.0.0.nupkg.sha512",
-    "C:\\Users\\rajib\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.1\\microsoft.netcore.app.runtime.browser-wasm.5.0.1.nupkg.sha512"
+    "C:\\Users\\rajib\\.nuget\\packages\\microsoft.netcore.app.runtime.browser-wasm\\5.0.5\\microsoft.netcore.app.runtime.browser-wasm.5.0.5.nupkg.sha512"
   ],
   "logs": []
 }

@@ -1,5 +1,5 @@
 ﻿@page "/admin/users/clients"
-
+@attribute [Authorize(Roles = "Admin")]
 <div id="headerSection">
     <div class="grid50l-- vtop">
         <h5>Users [Clients]</h5>
